@@ -1,0 +1,8 @@
+event,year_bce_ce,time_span,percent_human_history,parent,description
+Prehistoric Era,"300,000 BCE",230000,76%, ,"Early Homo sapiens coexisted with other hominin species, using simple tools and living as hunter-gatherers. For most of this period, sapiens had no significant impact on the world."
+Cognitive Revolution,"70,000 BCE",40000,13%,Prehistoric Era,"A shift in cognitive abilities allowed sapiens to develop complex language, abstract thought, and shared myths. This enabled large-scale cooperation and the eventual dominance of Homo sapiens."
+Late Paleolithic,"30,000 BCE",20000,7%,Cognitive Revolution,"This period saw the expansion of sapiens across the world, replacing Neanderthals and other human species. Cultural advancements included advanced stone tools, cave paintings, and early forms of domestication."
+Agricultural Revolution,"10,000 BCE",7000,2%,Late Paleolithic,"The transition from hunter-gatherers to settled farming societies led to permanent villages, social hierarchies, and surpluses. While food security increased, so did social inequality and disease."
+Social Revolution,"3,000 BCE",4500,1.49%,Agricultural Revolution,"The rise of writing, money, organized religion, and governance systems allowed for large empires to form. This period saw the codification of laws and structured societies."
+Scientific Revolution,"1,500 CE",500,0.17%,Social Revolution,"A period of rapid advancements in science, medicine, and technology. The scientific method became a primary tool for understanding the world, leading to industrialization and globalization."
+Modern Day,Present,50,0.02%,Scientific Revolution,Humanity is now at the frontier of globalized technology and information. The decisions made today will shape the next era of human history.
