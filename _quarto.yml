@@ -10,8 +10,8 @@ website:
         text: Home
       - href: about.qmd
         text: About
-      - href: interests.qmd
-        text: Interests
+      - href: Knowledge.qmd
+        text: Knowledge
       - text: Portfolio
         menu:
           - href: portfolio-academic.qmd

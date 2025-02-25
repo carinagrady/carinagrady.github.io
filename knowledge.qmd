@@ -1,5 +1,5 @@
 ---
-title: "Interests"
+title: "Knowledge"
 title-block-banner: true
 format: html
 toc: true
@@ -157,6 +157,8 @@ rpivotTable(
   height = "400px"
   )
 ```
+
+<br><br>
 
 Numbers in a table can provide insight, but **visualization** is an intuitiive way to explore data.  Charts and graphs help reveal trends, outliers, and relationships in ways that raw numbers can’t. A few common techniques include **boxplots, histograms, and scatterplots**. 
 
