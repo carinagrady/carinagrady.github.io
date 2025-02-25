@@ -39,7 +39,7 @@ Systems thinking is a way of **making sense of this complexity**. Instead of jus
 Most engineering systems can be broken down into:
 
 | **Component**  | **Definition**                                         | **Example**                                            |
-|:----------------:|------------------------------|------------------------|
+|:----------------:|---------------------------|---------------------------|
 |   **System**   | The entire structure with all its interconnected parts | Electrical grid                                        |
 | **Subsystem**  | A functional unit within the larger system             | Power generation, transmission, distribution           |
 | **Unit Type**  | A specific element within a subsystem                  | Turbine, transformer, solar panel                      |
@@ -129,12 +129,12 @@ As John Tukey famously said, *"Embrace your data, not your models."* A model is 
 
 In a perfect world, data would be pristine: consistent, complete, and ready for analysis. Unfortunately, **real-world data rarely looks like that**. Instead, it comes from multiple sources, gets entered manually, is often missing key details, and sometimes outright wrong. Consider a few real-life challenges:
 
-- **Inconsistent Formatting** – A name might appear as `"J. DOE"`, `"JOHN DOE"`, `"john doe"`, or `"John A. Doe"`, making identity matching difficult.
-- **Entry Errors** – A missing decimal could turn `$100.00` into `$10,000.00`, creating a major outlier.
-- **Conflicting Date Formats** – `"1 January 1970"` and `"01/01/1970"` are the same date but require standardization.
-- **Records Discrepancies** – A hospital’s patient records may vary depending on how different doctors enter information.
-- **Survey Gaps** – Respondents may skip questions, leading to missing values.
-- **Sensor Malfunctions** – Weather stations sometimes record impossible temperatures due to hardware failures.
+-   **Inconsistent Formatting** – A name might appear as `"J. DOE"`, `"JOHN DOE"`, `"john doe"`, or `"John A. Doe"`, making identity matching difficult.
+-   **Entry Errors** – A missing decimal could turn `$100.00` into `$10,000.00`, creating a major outlier.
+-   **Conflicting Date Formats** – `"1 January 1970"` and `"01/01/1970"` are the same date but require standardization.
+-   **Records Discrepancies** – A hospital’s patient records may vary depending on how different doctors enter information.
+-   **Survey Gaps** – Respondents may skip questions, leading to missing values.
+-   **Sensor Malfunctions** – Weather stations sometimes record impossible temperatures due to hardware failures.
 
 Messy data is everywhere, but it is where data science begins. **A robust, well-documented, and reproducible EDA process is the foundation of reliable analysis**. Without it, conclusions are flawed, models are unreliable, and insights become meaningless. Understanding what’s missing, what’s misleading, and what might introduce bias is critical before drawing any conclusions.
 
@@ -145,10 +145,10 @@ Below is an interactive pivot table using `rpivotTable` that breaks down CO₂ e
 ```{r, echo=FALSE}
 library(rpivotTable)
 
-eda_example <- read.csv("data/emissions.csv")
+data <- read.csv("data/emissions.csv")
 
 rpivotTable(
-  data = eda_example,
+  data = data,
   rows = "Type",
   aggregatorName = "Average",
   vals = "CO2",
@@ -158,16 +158,14 @@ rpivotTable(
   )
 ```
 
-<br><br>
-
-Numbers in a table can provide insight, but **visualization** is an intuitiive way to explore data.  Charts and graphs help reveal trends, outliers, and relationships in ways that raw numbers can’t. A few common techniques include **boxplots, histograms, and scatterplots**. 
+<br><br> Numbers in a table can provide insight, but **visualization** is an intuitiive way to explore data. Charts and graphs help reveal trends, outliers, and relationships in ways that raw numbers can’t. A few common techniques include **boxplots, histograms, and scatterplots**.
 
 The boxplot below provides a clear visualization of the same CO₂ emission data from the pivot table.
 
 ```{r, echo=FALSE}
 boxplot(
   CO2 ~ Type,
-  data = eda_example,
+  data = data,
   main = "CO2 Emissions by Vehicle Type",
   xlab = "Vehicle Type",
   ylab = "CO2 Emissions"
@@ -186,7 +184,7 @@ Below is a correlation heatmap of our dataset, revealing the key relationships b
 library(corrplot)
 
 # keep only numeric columns
-df_numeric <- eda_example[, sapply(eda_example, is.numeric)]  
+df_numeric <- data[, sapply(data, is.numeric)]  
 
  # exclude missing values
 cor_matrix <- cor(df_numeric, use = "complete.obs")
@@ -206,7 +204,7 @@ Remember, EDA is not optional—it is the most important step in any data analys
 The table below breaks down different modeling approaches, from **supervised and unsupervised learning** to **time-series analysis** and **probability-based methods**. These categories help define how data is used, whether it's predicting an outcome, grouping similar observations, or analyzing uncertainty.
 
 | **Category**                 | **Models & Techniques**                                                                                                                    | **Purpose**                                          |
-|-------------------|----------------------------|--------------------------|
+|------------------|------------------------------------|------------------|
 | **Supervised Learning**      | Classificaiton (SVM, KNN), Regression (Linear, Logistic, Advanced), Decision Trees (CART, Random Forests), Neural Networks (Deep Learning) | Uses labeled data to predict outcomes.               |
 | **Unsupervised Learning**    | Clustering (k-Means, DBSCAN), Dimensionality Reduction (PCA)                                                                               | Finds patterns in unlabeled data.                    |
 | **Time-Series Models**       | Forecasting (ARIMA, GARCH), Trend Analysis (Exponential Smoothing), Change Detection (CUSUM)                                               | Analyzes temporal dependencies for trend prediction. |
@@ -219,7 +217,7 @@ This may seem like an abstract technical concepts, but models like these actuall
 The second table below walks through the full data modeling pipeline, from **preparing raw data** to **engineering meaningful features**, applying **descriptive, predictive, or prescriptive models**, and finally ensuring the model is **validated and deployable**. Each step plays a role in making data-driven decisions **more accurate, reliable, and actionable**.
 
 | **Stage**                           | **Key Concepts**                                                       | **Purpose**                                             |
-|-------------------|----------------------------|-------------------------|
+|------------------|------------------------------|------------------------|
 | **Pre-Modeling (Data Preparation)** | Outlier Detection, Data Cleaning, Transformations, Scaling, Imputation | Ensures clean, high-quality data before modeling.       |
 | **Feature Engineering**             | Variable Selection, Principal Component Analysis (PCA)                 | Reduces dimensionality and improves model performance.  |
 | **Descriptive Models**              | Summary Statistics, Data Visualization, Clustering                     | Identifies patterns, trends, and structure in data.     |
@@ -242,7 +240,121 @@ And just like AI, we’re constantly learning, adapting, refining, and making de
 
 ## Regression
 
-blurb on regression
+**Regression** is one of the most fundamental and widely used tools in analytics, and for good reason. At its core, regression helps us quantify relationships between variables, making it a go-to method in research, economics, engineering, and even everyday decision-making. It’s also incredibly **intuitive**—we recognize patterns constantly in our daily lives. For example, we know that more study hours tend to result in better grades, increased exercise often leads to improved health, and a car’s fuel efficiency correlates with its CO₂ emissions. Regression formalizes these observations into a mathematical framework to **predict future outcomes**.
+
+Despite its power, regression isn’t infallible. It relies on key assumptions:
+
+| **Assumption**             | **Definition**                                                                                     | **Diagnostic Tool**                                               | **Resolution**                                                                                                                                                       |
+|-------------------|------------------|------------------|------------------|
+| **Linearity**              | The relationship between the independent and dependent variables should be linear.                 | Scatter plots, Residual vs. Fitted plots                          | Apply logarithmic, square root, or polynomial transformations.                                                                                                       |
+| **Homoscedasticity**       | The variance of residuals should remain constant across all levels of the independent variable(s). | Residual vs. Fitted plot                                          | Use Box-Cox transformation (on response variable), log transformation, or weighted least squares.                                                                    |
+| **Normality of Residuals** | The residuals should be normally distributed for valid hypothesis testing.                         | Q-Q Plots, Histograms                                             | Apply transformations (log, Box-Cox) to the dependent variable. Only evaluate normality using residuals, not the response variable.                                  |
+| **Independence of Errors** | Observations should not be correlated over time (no autocorrelation).                              | Durbin-Watson test, Residual vs. Time plot                        | If data is from a randomized trial, independence is likely established. If from observational studies, check for uncorrelated errors rather than independent errors. |
+| **No Multicollinearity**   | Independent variables should not be highly correlated with each other.                             | Variance Inflation Factor (VIF), Correlation matrix               | Remove/combine highly correlated variables, use PCA, or use lasso, ridge, or elastic net regression.                                                                 |
+| **No Outliers**            | Outliers and high-leverage points should not disproportionately impact the regression model.       | Cook’s Distance, Leverage plots, Box plots                        | Correct or remove.                                                                                                                                                   |
+| **Adequate Sample Size**   | Ensures sufficient observations per predictor variable to avoid overfitting.                       | Rule of thumb: at least 10-15 observations per predictor variable | Increase sample size if necessary to ensure stable coefficient estimates.                                                                                            |
+| **Additivity**             | Interaction effects should be accounted for when necessary.                                        | Test for significant interaction terms.                           | Include interaction terms in the model if needed.                                                                                                                    |
+
+Violating regression assumptions can distort results and lead to unreliable models. This is why **diagnostic tools** are essential in EDA to assess whether a model or its data is valid before blindly trusting it.
+
+![This handy guide visually breaks down the key assumptions of linear regression and what happens when they are violated.\
+1) **Linearity** ensures that the relationship between variables follows a straight-line pattern; if a curved trend appears, consider **transforming the variables**.\
+2) **Homoscedasticity** assumes that residuals have constant variance. When this is violated (as seen in the right image with a funnel shape), a **non-linear transformation** (linear-linear, linear-log, log-linear, log-log) can help.\
+3) **Multivariate normality** requires residuals to be normally distributed for reliable statistical inference. If errors are skewed, try **removing extreme outliers**.\
+4) **Independence** assumes that observations aren’t correlated over time (no autocorrelation). For time-series data, this often means incorporating **lag terms or using time-series models** like ARIMA. For non-time series data, look for **clustered or grouped data** to restructure, where observations within the same group are correlated.\
+5) **Multicollinearity** occurs when predictors are highly correlated, which can distort coefficient estimates. This can be fixed by **removing redundant variables, PCA, or applying lasso, ridge, or elastic net regression**.\
+6) While **outliers** aren’t strictly an assumption, they can heavily influence regression results; visualization tools like **boxplots and influence diagnostics** can help detect them.](images/assumptionsregression.PNG)
+
+At its simplest, regression estimates the relationship between an independent variable (predictor) and a dependent variable (outcome). The most common type is linear regression, which assumes a straight-line relationship:
+
+$Y = \beta_0 + \beta_1 X + \varepsilon$
+
+Where:
+
+-   $Y$ = dependent variable (the response we want to predict)
+-   $X$ = independent variable (the predictor)
+-   $\beta_0$ = intercept (the baseline value of $Y$ when $X$ is zero)
+-   $\beta_1$ = slope (how much $Y$ changes for each unit increase in $X$)
+-   $\varepsilon$ = error term (representing variability not explained by the model)
+
+Regression models draw a best-fit line through data points, aiming to get as **close as possible** to the actual values while minimizing the difference between predictions and reality. However, no model is perfect—there will always be some error. **Residuals** represent the **gap** between what a model predicts and what actually happens. To measure how well a model fits the data, regression **minimizes the sum of squared residuals**—meaning it finds the line that keeps errors as small as possible while avoiding overcomplicating the model. Squaring the residuals ensures that large mistakes are penalized more, leading to a more reliable and stable model.
+
+![This GIF is a handy visualization for understanding **residuals** and how regression minimizes the sum of squared error In **Ordinary Least Squares (OLS) regression**, the goal is to minimize the **vertical** distances between data points and the regression line, optimizing for prediction accuracy in the dependent variable. However, pay close attention to the **gray lines** in this animation—notice how they are **perpendicular** to the principal component line rather than vertical. This highlights the key difference between OLS regression and **Principal Component Analysis (PCA)**: OLS minimizes vertical errors for prediction, while PCA minimizes **orthogonal distances** for finding the direction of maximum variance in the data. OLS is great for prediction tasks but assumes a clear dependent-independent variable relationship, while PCA excels in dimensionality reduction but isn't designed for prediction.](images/pca.gif)
+
+In many real-world scenarios, a single predictor isn’t enough to explain an outcome. This is where multiple regression comes into play. Instead of modeling one independent variable ($X$), multiple regression incorporates multiple predictors ($X_n$):
+
+$Y = \beta_0 + \beta_1 X_1 + \beta_2 X_2 + ... + \beta_n X_n + \varepsilon$
+
+Sometimes, categorical variables (like "car type" or "region") need to be included in a model. Since regression requires numerical inputs, we introduce **dummy variables (indicator variables)** to represent categories. For example, a dataset with "Sedan" and "Truck" cars could use a dummy variable where `Sedan = 0` and `Truck = 1`. This allows regression models to incorporate qualitative factors and estimate their impact on the dependent variable.
+
+Beyond individual predictors, variables can interact with each other in meaningful ways. **Interaction terms** allow us to capture these effects. For instance, the effect of weight on CO₂ emissions might differ depending on whether a car is a sedan or truck. Instead of assuming weight has the same effect across all cars, an interaction term (i.e. `Weight × Typ`e) would account for this difference. Interaction terms can reveal complex relationships and reduce multi-collinearity.
+
+Other specialized forms of regression include:
+
+-   **Logistic Regression:** Used when the outcome is categorical (i.e. Yes/No, On/Off, Red/Blue/Yellow).
+-   **Polynomial Regression:** Captures non-linear relationships by fitting curves instead of straight lines.
+-   **Ridge, Lasso, and Elastic Net Regression:** Address overfitting and improve predictive power by applying penalties to model complexity.
+
+Now, **let’s return to our CO₂ emissions dataset.** Intuitively, we expect larger vehicles to emit more CO₂, but how strong is that relationship? Using regression, we can quantify how much an increase in weight or horsepower influences emissions.
+
+We define a linear regression model where CO₂ emissions ($Y$) are predicted based on multiple factors ($X_n$):
+
+$CO₂ = \beta_0 + \beta_1 \times Weight + \beta_2 \times MPG + \beta_3 \times Model.Year + \varepsilon$
+
+Now we're ready to run the regression.
+
+```{r}
+model <- lm(CO2 ~ MPG + Weight + Model.Year, data = data)
+summary(model)
+```
+
+The regression results provide insights into the relationship between **CO₂ emissions (g/mile)** and three predictors: **MPG (fuel efficiency), vehicle weight, and model year**.
+
+-   The negative coefficient for **MPG (-1.629)** indicates that for each additional mile per gallon a vehicle achieves, **CO₂ emissions decrease by approximately 1.63 g/mile**, which aligns with expectations—more fuel-efficient cars produce less CO₂.
+-   The positive coefficient for **weight (2.85)** suggests that for every additional unit of vehicle weight, **CO₂ emissions increase by about 2.85 g/mile**, reinforcing the idea that heavier vehicles require more energy to move.
+-   The **model year coefficient (-1.60)** suggests that for each newer model year, **CO₂ emissions decrease by 1.6 g/mile**, likely due to advancements in fuel efficiency and emissions regulations over time.
+-   The **intercept (3875 g/mile)** represents the theoretical CO₂ emissions when all predictor variables are zero, though this isn’t a meaningful real-world scenario.
+-   All predictors are highly statistically significant (**p-values \< 2e-16**), indicating strong evidence that these factors influence emissions.
+-   The **R-squared value (0.9296)** suggests that the model explains about **92.96% of the variation in CO₂ emissions**, meaning the chosen predictors provide a strong fit to the data.
+-   The **F-statistic (7482, p \< 2.2e-16)** confirms that the overall model is highly significant.
+
+In summary, this model confirms the expected trends—higher MPG and newer model years reduce emissions, while heavier vehicles contribute to increased CO₂ output. All done, right? Not quite. We did not look to see if the dataset violated the assumptions of regression. Let's run a couple of visual diagnostics.
+
+```{r, echo=FALSE, message=FALSE}
+library(ggplot2)
+library(gridExtra)
+
+grid.arrange(
+  
+  # MPG vs CO2
+  ggplot(data, aes(x = Model.Year, y = CO2)) + 
+    geom_point() + 
+    geom_smooth(color = "red") +
+    labs(title = "CO2 Emissions vs. Model Year", x = "Model Year", y = "CO2 Emissions"),
+  
+  # Model.Year vs CO2
+  ggplot(data, aes(x = MPG, y = CO2)) + 
+    geom_point() + 
+    geom_smooth(color = "red") +
+    labs(title = "CO2 Emissions vs. MPG", x = "MPG", y = "CO2 Emissions"),
+  
+  # Weight vs CO2
+  ggplot(data, aes(x = Weight, y = CO2)) + 
+    geom_point() + 
+    geom_smooth(color = "red") +
+    labs(title = "CO2 Emissions vs. Weight", x = "Weight", y = "CO2 Emissions"),
+  
+  # QQ plot
+  ggplot(data, aes(sample = model$residuals)) +
+    stat_qq() +
+    stat_qq_line(color = "red") +
+    labs(title = "QQ Plot of Residuals", x = "Theoretical Quantiles", y = "Sample Quantiles"),
+  
+  # number of cols
+  ncol = 2)
+```
+
+Uh oh, looks like our regression assumptions aren’t holding up well. The **CO₂ vs. Model Year** plot shows a *nonlinear trend*, violating the assumption of **linearity**. The **CO₂ vs. MPG** plot has a clear *nonlinear pattern*, suggesting a transformation (i.e. log transformation) could help linearize the relationship. The **CO₂ vs. Weight** plot shows *increasing variance* in residuals, indicating **heteroscedasticity**. The **QQ plot of residuals** reveals a *heavy-tailed distribution*, violating **normality of residuals**. Ideally, residuals should be **normally distributed, homoscedastic, and independent**, with a linear relationship between predictors and the outcome. These diagnostics helped us discover that the data by itself is not ready for modeling since it violates the assumptions of regression. To fix these issues, we can explore techniques shown in the table above, and also apply dummy variables and interaction terms.
 
 # [Humanities]{style="font-size: 1.75em;"}
 
