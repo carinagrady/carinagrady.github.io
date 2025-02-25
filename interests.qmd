@@ -82,10 +82,9 @@ These equation may look merely theoretical, but they are the **blueprint for mod
 
 ## Electrical Grid
 
-According to the National Academy of Engineering, the **number one greatest engineering achievement of the 20th century is electrification.** 
-It has enabled modern civilization, from lighting cities to powering industries, transforming nearly every aspect of daily life. Yet, over a century after its invention, the grid still operates on a rigid, century-old framework: power plants generate electricity, transmission lines carry it vast distances, and distribution networks deliver it to homes and businesses. This system has worked remarkably well—but it was built for a different era, one without widespread renewable energy or real-time analytics.
+According to the National Academy of Engineering, the **number one greatest engineering achievement of the 20th century is electrification.** It has enabled modern civilization, from lighting cities to powering industries, transforming nearly every aspect of daily life. Yet, over a century after its invention, the grid still operates on a rigid, century-old framework: power plants generate electricity, transmission lines carry it vast distances, and distribution networks deliver it to homes and businesses. This system has worked remarkably well—but it was built for a different era, one without widespread renewable energy or real-time analytics.
 
-**The challenge today is not just generating electricity, but distributing it efficiently in a rapidly changing world.** Renewable energy sources like wind and solar introduce variability, requiring new approaches to maintaining a stable power supply. Climate change adds further urgency, demanding that we rethink how electricity is generated, stored, and delivered.
+**The challenge today is not only to generate enough electricity, but distributing it efficiently in a rapidly changing world.** Renewable energy sources like wind and solar introduce variability, requiring new approaches to maintaining a stable power supply. Climate change adds further urgency, demanding that we rethink how electricity is generated, stored, and delivered.
 
 At its core, the grid is a **network of interconnected subsystems**, each with a crucial role:
 
@@ -95,9 +94,9 @@ At its core, the grid is a **network of interconnected subsystems**, each with a
 
 For over a century, these components have worked together to provide reliable electricity. But integrating **intermittent renewables** disrupts this balance, introducing complexities that traditional grid models weren’t designed for. The grid must match electricity supply with demand at every moment, but not all power sources operate the same way:
 
-- **Baseline power** – Consistently running power plants, such as nuclear and coal, provide a steady supply of electricity.
-- **Peaker plants** – Gas-powered plants can ramp up quickly during high demand but are expensive and inefficient to run frequently.
-- **Intermittent renewables**– Solar and wind produce energy when nature allows, which doesn’t always align with demand.
+-   **Baseline power** – Consistently running power plants, such as nuclear and coal, provide a steady supply of electricity.
+-   **Peaker plants** – Gas-powered plants can ramp up quickly during high demand but are expensive and inefficient to run frequently.
+-   **Intermittent renewables**– Solar and wind produce energy when nature allows, which doesn’t always align with demand.
 
 Historically, baseline plants handled the majority of energy needs, while peaker plants filled in gaps during peak hours. But as renewables become more common, they disrupt this balance. Without better energy storage or grid flexibility, excess solar energy at noon can go to waste, while evening peaks still rely on fossil fuels.
 
@@ -118,11 +117,91 @@ The grid may look only like infraastructure, but it is a complex dynamic system 
 
 # [Analytics]{style="font-size: 1.75em;"}
 
-Data science and machine learning are about **understanding data, extracting insights, and making informed decisions**. Before diving into predictive algorithms or optimization strategies, it’s important to step back and see the **bigger picture** of how models apply to our everyday life.
+**Analytics** is about making sense of the world through **patterns, predictions, and decisions**. It’s a way to represent reality—but no model is a perfect reflection of realitye. As statistician George Box famously put it, *"All models are wrong, but some are useful."* Models simplify complex systems, stripping away details to highlight key relationships. They may **not capture every nuance** to be the truth, but they provide **structured approximations** that help us **understand complexity**.
 
-The first table breaks down different modeling approaches, from **supervised and unsupervised learning** to **time-series analysis** and **probability-based methods**. These categories help define how data is used, whether it's predicting an outcome, grouping similar observations, or analyzing uncertainty.
+Modeling is often seen as a science, but it’s just as much an **art**. It requires judgment, interpretation, and creativity in defining assumptions, selecting variables, and refining results. Data alone doesn’t tell the full story; the real skill lies in knowing **what to model, how to structure it, and where its limitations lie**. Whether analyzing trends, forecasting outcomes, or optimizing decisions, analytics builds **useful representations of reality**—ones that allow us to think critically, make informed decisions, and continuously refine our understanding.
 
-But these aren’t just abstract technical concepts. Models like these help us make sense of the world. In a way, they’re not so different from how we think; after all, **our brains function like neural networks**, constantly learning from past experiences (our "training data", if you will) and adjusting based on new information. We don’t need massive datasets or code to do it, but the process is familiar: **we take in patterns, form expectations, and refine our judgment**.
+## Exploratory Data Analysis
+
+Before building any models, **data must be explored, cleaned, and understood**. Exploratory Data Analysis (EDA) is the process of investigating raw data, identifying patterns, and preparing it for meaningful analysis. The reality is that the majority of data science is not about advanced modeling at all; rather, it’s about **making sense of messy, real-world data.**
+
+As John Tukey famously said, *"Embrace your data, not your models."* A model is only as good as the data feeding it. Without a deep understanding of the data itself, even the most sophisticated model will be misleading at best and completely wrong at worst.
+
+In a perfect world, data would be pristine: consistent, complete, and ready for analysis. Unfortunately, **real-world data rarely looks like that**. Instead, it comes from multiple sources, gets entered manually, is often missing key details, and sometimes outright wrong. Consider a few real-life challenges:
+
+- **Inconsistent Formatting** – A name might appear as `"J. DOE"`, `"JOHN DOE"`, `"john doe"`, or `"John A. Doe"`, making identity matching difficult.
+- **Entry Errors** – A missing decimal could turn `$100.00` into `$10,000.00`, creating a major outlier.
+- **Conflicting Date Formats** – `"1 January 1970"` and `"01/01/1970"` are the same date but require standardization.
+- **Records Discrepancies** – A hospital’s patient records may vary depending on how different doctors enter information.
+- **Survey Gaps** – Respondents may skip questions, leading to missing values.
+- **Sensor Malfunctions** – Weather stations sometimes record impossible temperatures due to hardware failures.
+
+Messy data is everywhere, but it is where data science begins. **A robust, well-documented, and reproducible EDA process is the foundation of reliable analysis**. Without it, conclusions are flawed, models are unreliable, and insights become meaningless. Understanding what’s missing, what’s misleading, and what might introduce bias is critical before drawing any conclusions.
+
+One of the quickest ways to summarize and explore data is through **pivot tables**. They allow analysts to dynamically slice and dice information across different categories, compute aggregates (like sums, averages, and counts), and uncover hidden trends.
+
+Below is an interactive pivot table using `rpivotTable` that breaks down CO₂ emissions by vehicle type. Try selecting different attributes like MPG or weight to see how they relate.
+
+```{r, echo=FALSE}
+library(rpivotTable)
+
+eda_example <- read.csv("data/emissions.csv")
+
+rpivotTable(
+  data = eda_example,
+  rows = "Type",
+  aggregatorName = "Average",
+  vals = "CO2",
+  rendererName = "Table",
+  width = "500px",
+  height = "400px"
+  )
+```
+
+Numbers in a table can provide insight, but **visualization** is an intuitiive way to explore data.  Charts and graphs help reveal trends, outliers, and relationships in ways that raw numbers can’t. A few common techniques include **boxplots, histograms, and scatterplots**. 
+
+The boxplot below provides a clear visualization of the same CO₂ emission data from the pivot table.
+
+```{r, echo=FALSE}
+boxplot(
+  CO2 ~ Type,
+  data = eda_example,
+  main = "CO2 Emissions by Vehicle Type",
+  xlab = "Vehicle Type",
+  ylab = "CO2 Emissions"
+  )
+```
+
+Intuitively, the result makes sense: the bigger the vehicle, the higher the emissions. But **how strong is this relationship?** Is weight the only factor? To understand this better, we need to examine **correlation.**
+
+One of the biggest pitfalls in analysis is mistaking correlation for causation. **Correlation does not result in causation**; just because two variables move together doesn’t mean one is causing the other. Without deeper investigation, data can tell a misleading story that might seem logical at first but falls apart with further scrutiny. The classic example of ice cream sales and shark attacks illustrates this perfectly.
+
+![At first glance, the pattern is clear: more ice cream sales, more shark attacks. So should we ban ice cream to save lives? Not quite. The real factor at play is hot weather, since it sends people to the beach (where sharks happen to be) and also increases ice cream consumption. The two trends move together, but one isn’t causing the other.](images/correlationcausation.png){width="500px"}
+
+Below is a correlation heatmap of our dataset, revealing the key relationships between vehicle attributes. CO₂ emissions strongly correlate with MPG, model year, and weight. This intuitively makes sense; fuel-efficient cars emit less CO₂, newer models tend to be cleaner, and heavier vehicles produce more emissions.
+
+```{r, echo=FALSE, message=FALSE}
+library(corrplot)
+
+# keep only numeric columns
+df_numeric <- eda_example[, sapply(eda_example, is.numeric)]  
+
+ # exclude missing values
+cor_matrix <- cor(df_numeric, use = "complete.obs")
+
+# generate correlation matrix
+corrplot(cor_matrix, method = "color", type = "lower", 
+         addCoef.col = "black", tl.col = "black", tl.srt = 45, 
+         title = "Correlation Heatmap",
+         mar = c(0.5,0.5,2,1)
+         )
+```
+
+Remember, EDA is not optional—it is the most important step in any data analysis. Without it, models are built on assumptions rather than reality. By thoroughly exploring data, we can identify patterns, question biases, and refine our approach before jumping to conclusions. **A great model can’t fix bad data, but great EDA can prevent bad models.**
+
+## Types of Models
+
+The table below breaks down different modeling approaches, from **supervised and unsupervised learning** to **time-series analysis** and **probability-based methods**. These categories help define how data is used, whether it's predicting an outcome, grouping similar observations, or analyzing uncertainty.
 
 | **Category**                 | **Models & Techniques**                                                                                                                    | **Purpose**                                          |
 |-------------------|----------------------------|--------------------------|
@@ -131,7 +210,20 @@ But these aren’t just abstract technical concepts. Models like these help us m
 | **Time-Series Models**       | Forecasting (ARIMA, GARCH), Trend Analysis (Exponential Smoothing), Change Detection (CUSUM)                                               | Analyzes temporal dependencies for trend prediction. |
 | **Probability-Based Models** | Distribution Fitting, A/B Testing, Markov Chains, Bayesian Statistics, Simulation                                                          | Models uncertainty and probabilistic relationships.  |
 
-But models don’t exist in isolation. The second table walks through the full data modeling pipeline, from **preparing raw data** to **engineering meaningful features**, applying **descriptive, predictive, or prescriptive models**, and finally ensuring the model is **validated and deployable**. Each step plays a role in making data-driven decisions **more accurate, reliable, and actionable**.
+This may seem like an abstract technical concepts, but models like these actually help us make sense of the world. In a way, they’re not so different from how we think; after all, **our brains function like neural networks**, constantly learning from past experiences (our "training data", if you will) and adjusting based on new information. We don’t need massive datasets or code to do it, but the process is familiar: **we take in patterns, form expectations, and refine our judgment**.
+
+## Modeling Process
+
+The second table below walks through the full data modeling pipeline, from **preparing raw data** to **engineering meaningful features**, applying **descriptive, predictive, or prescriptive models**, and finally ensuring the model is **validated and deployable**. Each step plays a role in making data-driven decisions **more accurate, reliable, and actionable**.
+
+| **Stage**                           | **Key Concepts**                                                       | **Purpose**                                             |
+|-------------------|----------------------------|-------------------------|
+| **Pre-Modeling (Data Preparation)** | Outlier Detection, Data Cleaning, Transformations, Scaling, Imputation | Ensures clean, high-quality data before modeling.       |
+| **Feature Engineering**             | Variable Selection, Principal Component Analysis (PCA)                 | Reduces dimensionality and improves model performance.  |
+| **Descriptive Models**              | Summary Statistics, Data Visualization, Clustering                     | Identifies patterns, trends, and structure in data.     |
+| **Predictive Models**               | Supervised Learning, Time-Series Forecasting                           | Finds hidden relationships and forecasts future trends. |
+| **Prescriptive Models**             | Optimization, Simulation, Game Theory, Reinforcement Learning          | Recommends actions to maximize desired outcomes.        |
+| **Post-Modeling (Deployment)**      | Cross-validation, Model Evaluation, Bias Detection, Interpretability   | Ensures reliability, fairness, and usability of models. |
 
 In many ways, this process mirrors how we reason and navigate the world. We:
 
@@ -142,26 +234,9 @@ In many ways, this process mirrors how we reason and navigate the world. We:
 
 We start by gathering information (pre-modeling), focus on what matters (feature engineering), recognize patterns (descriptive models), anticipate outcomes (predictive models), and, when possible, make decisions to optimize results (prescriptive models). Then we deploy our model by communicating to others—though whether that "model" is fair, accurate, or completely overfitted to our own biases is a whole other discussion (and probably a debate waiting to happen).
 
-| **Stage**                           | **Key Concepts**                                                       | **Purpose**                                             |
-|-------------------|-----------------------------|-------------------------|
-| **Pre-Modeling (Data Preparation)** | Outlier Detection, Data Cleaning, Transformations, Scaling, Imputation | Ensures clean, high-quality data before modeling.       |
-| **Feature Engineering**             | Variable Selection, Principal Component Analysis (PCA)                 | Reduces dimensionality and improves model performance.  |
-| **Descriptive Models**              | Summary Statistics, Data Visualization, Clustering                     | Identifies patterns, trends, and structure in data.     |
-| **Predictive Models**               | Supervised Learning, Time-Series Forecasting                           | Finds hidden relationships and forecasts future trends. |
-| **Prescriptive Models**             | Optimization, Simulation, Game Theory, Reinforcement Learning          | Recommends actions to maximize desired outcomes.        |
-| **Post-Modeling (Deployment)**      | Cross-validation, Model Evaluation, Bias Detection, Interpretability   | Ensures reliability, fairness, and usability of models. |
-
 Understanding this structure helps clarify **when and why different techniques are used**. Not every project needs all three modeling types (descriptive, predictive, and prescriptive), but seeing how they interact allows for **better problem-solving and decision-making**.
 
-And just like AI, we’re constantly learning, adapting, refining, and making decisions based on experience. Whether we’re analyzing data, forecasting the future, or optimizing outcomes, these models aren’t just shaping technology; they reflect how we think, reason, and make sense of the world.
-
-## Exploratory Data Analysis
-
-blurb on EDA, correlations/causations too, pivots
-
-## Machine Learning Models
-
-blurb on models
+And just like AI, we’re constantly learning, adapting, refining, and making decisions based on experience. Whether we’re analyzing data, forecasting the future, or optimizing outcomes, these models are shaping technology and reflect how we think, reason, and make sense of the world.
 
 ## Regression
 
