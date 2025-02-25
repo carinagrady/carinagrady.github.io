@@ -27,7 +27,7 @@ Engineering is the art of creation and problem-solving. It takes the world’s b
 
 ## Systems Thinking
 
-Engineers don’t just **solve problems**—they **design systems**. Whether it’s infrastructure, software, energy grids, or manufacturing, real-world engineering challenges aren’t isolated. They exist within immensely complex, interconnected systems, where one change can influence everything else.
+Engineers **solve problems by designing systems**. Whether it’s infrastructure, software, energy grids, or manufacturing, real-world engineering challenges aren’t isolated. They exist within immensely complex, interconnected systems, where one change can influence everything else.
 
 Systems thinking is a way of **making sense of this complexity**. Instead of just focusing on individual components, engineers look at how things interact, how information flows, and how small adjustments ripple through the entire system. Instead of focusing on individual parts, it’s about stepping back and looking at the **bigger picture**. Engineers ask:
 
@@ -95,9 +95,9 @@ At its core, the grid is a **network of interconnected subsystems**, each with a
 
 For over a century, these components have worked together to provide reliable electricity. But integrating **intermittent renewables** disrupts this balance, introducing complexities that traditional grid models weren’t designed for. The grid must match electricity supply with demand at every moment, but not all power sources operate the same way:
 
-* **Baseline power** – Consistently running power plants, such as nuclear and coal, provide a steady supply of electricity.
-* **Peaker plants** – Gas-powered plants can ramp up quickly during high demand but are expensive and inefficient to run frequently.
-* **Intermittent renewables**– Solar and wind produce energy when nature allows, which doesn’t always align with demand.
+- **Baseline power** – Consistently running power plants, such as nuclear and coal, provide a steady supply of electricity.
+- **Peaker plants** – Gas-powered plants can ramp up quickly during high demand but are expensive and inefficient to run frequently.
+- **Intermittent renewables**– Solar and wind produce energy when nature allows, which doesn’t always align with demand.
 
 Historically, baseline plants handled the majority of energy needs, while peaker plants filled in gaps during peak hours. But as renewables become more common, they disrupt this balance. Without better energy storage or grid flexibility, excess solar energy at noon can go to waste, while evening peaks still rely on fossil fuels.
 
