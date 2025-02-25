@@ -11,7 +11,7 @@ website:
       - href: about.qmd
         text: About
       - href: knowledge.qmd
-        text: knowledge
+        text: Knowledge
       - text: Portfolio
         menu:
           - href: portfolio-academic.qmd
