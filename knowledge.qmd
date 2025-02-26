@@ -415,10 +415,10 @@ plot_ly(
       bgcolor = "white", font = list(size = 12), align = "left", width = 300),
     # add title
     title = list(
-        text = "<b>Human History Timeline!</b>
+        text = "<b>Human History Visual!</b>
         <span style='font-size:14px'>Can you see where we are today? Try clicking the smaller boxes.</span>",
         # pushes title higher)
-        y = 0.95, margin = list(t = 70) 
+        y = 1, margin = list(t = 50) 
 ))
 ```
 
