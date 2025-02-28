@@ -9,6 +9,89 @@ execute:
   freeze: false
 ---
 
+```{r, echo=FALSE, message=FALSE}
+# load libraries and function here
+
+library(dplyr)
+library(readr)
+library(stringr)
+library(rpivotTable)
+library(corrplot)
+library(ggplot2)
+library(gridExtra)
+library(plotly)
+library(scales)
+library(kableExtra)
+
+# function to wrap text for hover box
+wrap_text <- function(text, width = 50) {
+  return(str_replace_all(str_wrap(text, width), "\n", "<br>"))
+}
+
+# function to create timeline plots with interactive tooltips
+create_historical_plotly <- function(data, 
+                                 y_var, x_start, x_end, fill_var, 
+                                 tooltip_cols, title, y_label, fill_label) {
+  
+  # Wrap text for multiple tooltip columns
+  data <- data %>%
+    mutate(region = case_match(
+      region,
+      "Middle East & North Africa" ~ "Middle East\n& North Africa",
+      "Sub-Saharan Africa" ~ "Sub-Saharan\nAfrica",
+      .default = region  # Keeps other values unchanged
+    )) %>%
+    rowwise() %>%  # Ensure text is created row-wise
+    mutate(tooltip_text = paste(
+      "<b>", y_label, ":</b>", !!sym(y_var), "<br>",
+      "<b>Years:</b>", !!sym(x_start), "to", !!sym(x_end), "<br>",
+      paste0("<b>", tooltip_cols, ":</b> ", c_across(all_of(tooltip_cols)), collapse = "<br>")
+    )) %>%
+    ungroup()
+
+  # Create ggplot
+  p <- ggplot(
+    data = data,
+    aes(
+      y = reorder(.data[[y_var]], .data[[x_start]]),
+      xmin = .data[[x_start]], xmax = .data[[x_end]],
+      fill = .data[[fill_var]],
+      text = tooltip_text  # Uses pre-computed column
+    )) +
+    geom_rect(
+      aes(
+        xmin = .data[[x_start]], xmax = .data[[x_end]],
+        ymin = as.numeric(reorder(.data[[y_var]], .data[[x_start]])) - 0.4, 
+        ymax = as.numeric(reorder(.data[[y_var]], .data[[x_start]])) + 0.4
+      ),
+      color = "black", alpha = 0.9
+    ) +
+    scale_fill_manual(values = colors) +
+    scale_x_continuous(
+      breaks = seq(-3000, 2000, 500),  # Major tick marks every 500 years
+      minor_breaks = seq(-3000, 2000, 100),  # Minor tick marks every 100 years
+      labels = function(x) ifelse(x < 0, paste(abs(x), "BCE"), paste(x, "CE"))
+    ) +
+    labs(
+      title = title,
+      x = "Year",
+      y = y_label,
+      fill = fill_label
+    ) +
+    theme_minimal() +
+    theme(
+      legend.background = element_rect(color = "black", fill = "white", linewidth = 0.3), 
+      panel.grid.minor.x = element_blank(),  # Remove minor grid lines
+      axis.text.x = element_text(angle = 45, hjust = 1),  # Tilts x-axis labels for readability
+      axis.ticks.x = element_line(color = "black")  # Ensures tick marks are visible
+    )
+
+  # Convert ggplot to interactive plotly
+  return(ggplotly(p, tooltip = "text"))
+}
+
+```
+
 # The Power of Interdisciplinary Thinking
 
 I've always been drawn to the **new and different**: the ideas that push boundaries, challenge assumptions, and redefine what's possible. Whether it's uncovering patterns in data, questioning long-held beliefs in technology, or exploring the social forces that shape our world, I love the process of discovery. I'm drawn to **understanding how things work**—not just taking them at face value, but exploring **different perspectives and possibilities** to see what else might be there.
@@ -143,8 +226,6 @@ One of the quickest ways to summarize and explore data is through **pivot tables
 Below is an interactive pivot table using `rpivotTable` that breaks down CO₂ emissions by vehicle type. Try selecting different attributes like MPG or weight to see how they relate.
 
 ```{r, echo=FALSE}
-library(rpivotTable)
-
 data <- read.csv("data/emissions.csv")
 
 rpivotTable(
@@ -181,8 +262,6 @@ One of the biggest pitfalls in analysis is mistaking correlation for causation. 
 Below is a correlation heatmap of our dataset, revealing the key relationships between vehicle attributes. CO₂ emissions strongly correlate with MPG, model year, and weight. This intuitively makes sense; fuel-efficient cars emit less CO₂, newer models tend to be cleaner, and heavier vehicles produce more emissions.
 
 ```{r, echo=FALSE, message=FALSE}
-library(corrplot)
-
 # keep only numeric columns
 df_numeric <- data[, sapply(data, is.numeric)]  
 
@@ -321,9 +400,6 @@ The regression results provide insights into the relationship between **CO₂ em
 In summary, this model confirms the expected trends—higher MPG and newer model years reduce emissions, while heavier vehicles contribute to increased CO₂ output. All done, right? Not quite. We did not look to see if the dataset violated the assumptions of regression. Let's run a couple of visual diagnostics.
 
 ```{r, echo=FALSE, message=FALSE}
-library(ggplot2)
-library(gridExtra)
-
 grid.arrange(
   
   # MPG vs CO2
@@ -386,11 +462,6 @@ These transitions didn’t happen overnight. No one at the time could have fores
 To truly grasp the scale of these changes, explore the **interactive treemap below**. It visually represents how much time each period spans, offering a striking perspective on just how recent civilization, as we know it, really is.
 
 ```{r, echo=FALSE, message=FALSE}
-library(plotly)
-library(readr)
-library(stringr)
-library(scales)
-
 # define the color mapping manually
 color_scale <- c("#2E8B57",  # SeaGreen 
                  "#9ACD32",  # YellowGreen
@@ -399,11 +470,6 @@ color_scale <- c("#2E8B57",  # SeaGreen
                  "#FF6347",  # Tomato
                  "#DC143C",  # Crimson
                  "#8B0000")  # DarkRed
-
-# function to wrap text for hover box
-wrap_text <- function(text, width = 50) {
-  return(str_replace_all(str_wrap(text, width), "\n", "<br>"))
-}
 
 # interactive treemap
 plot_ly(
@@ -451,10 +517,86 @@ Understanding where we came from helps us make sense of where we are now. Our in
 
 It took us tens of thousands of years to develop abstract thought, after all. **Will we one day see another Cognitive Revolution, one that can handle today's information input? Or is technology evolving too fast for us to keep up?** If history has shown us anything, it’s that humans are capable of extraordinary transformation. The real question is: **where do we go from here?**
 
-## History
+## History & Religion
 
--   hunter gatherer vs. farming revolution
--   cognitive revolution and agriculture revolution\
+
+```{r, echo=FALSE, message=FALSE}
+historical_ages <- read_csv("data/historical_ages.csv", show_col_types = FALSE)
+
+era_events <- read_csv("data/historical_era_events.csv", show_col_types = FALSE)
+
+civilizations <- read_csv("data/historical_civilizations.csv", show_col_types = FALSE) %>% 
+  mutate(Contributions = wrap_text(Contributions, 40))
+
+religions <- read_csv("data/historical_religions.csv", show_col_types = FALSE) %>% 
+  mutate(
+    Beliefs = wrap_text(Beliefs, 40),
+    `Key Civilizations` = wrap_text(`Key Civilizations`, 40)
+  )
+
+colors <- c(
+  "Americas" = "#8C564B",  # Muted brown
+  "Asia" = "#2E8B57",  # Muted dark green
+  "Europe" = "#4682B4",  # Muted steel blue
+  "Middle East\n& North Africa" = "#D2691E",  # Muted dark orange
+  "Sub-Saharan\nAfrica" = "#6A5ACD"  # Muted slate blue
+)
+
+```
+
+stone -> ancient -> medieval -> modern
+
+below is more info on what exactly happened and over what time period
+
+```{r, echo=FALSE}
+era_events %>%
+  mutate(`Number of Years` = comma(`Number of Years`)) %>% 
+  rename(`# of Years` = `Number of Years`) %>% 
+  kable(format = "html") %>%
+  kable_styling(full_width = FALSE, bootstrap_options = c("striped", "hover"))
+
+```
+
+this is all fine and dady, but what were the civilizations? they had names
+we will only focus on history (not prehistory) because we don't know much about what happened in prehistory since nothing was recorded
+
+the rise & fall of civilizations across the eras
+
+
+```{r, echo=FALSE}
+create_historical_plotly(
+  data = civilizations,
+  y_var = "key_civilizations",
+  x_start = "start_year",
+  x_end = "end_year",
+  fill_var = "region",
+  tooltip_cols = c("Empires/States", "Rise and Fall Years", "Contributions"),
+  title = "Timeline of Major Civilizations by Region",
+  y_label = "Civilizations",
+  fill_label = "Regions"
+)
+```
+
+and here are their religions
+
+```{r, echo=FALSE}
+create_historical_plotly(
+  data = religions,
+  y_var = "religion",
+  x_start = "start_year",
+  x_end = "end_year",
+  fill_var = "region",
+  tooltip_cols = c("Rise and Fall Years", "Key Civilizations", "Beliefs"),
+  title = "Timeline of Major Religions by Region",
+  y_label = "Religions",
+  fill_label = "Regions of Origin"
+)
+
+```
+
+
+
+
 -   Marx's theory of history, dialectical materialism
 -   tribe -\> kingdom -\> empire
 -   the general ages, and notable empires
