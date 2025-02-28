@@ -1,0 +1,18 @@
+religion,start_year,end_year,region,color,Key Civilizations,Beliefs,Rise and Fall Years
+Indigenous Religions,-3100,1600,Americas,darkgreen,"Maya Civilization, Aztec Empire, Inca Empire, West African Kingdoms, Native American Tribes",Animistic and polytheistic beliefs tied to nature and ancestors. Varies widely among cultures.,c. 3100 BCE - 1600 CE
+Paganism,-3100,500,Europe,royalblue,"Norse & Viking Age, Ancient Greece, Ancient Rome, Phoenicia, Mesopotamia, Ancient Egypt","Polytheistic, nature-based traditions. Includes various pre-Christian European belief systems.",c. 3100 BCE - 500 CE
+Pre-Vedic,-2500,-1500,Asia,gold,Indus Valley,"Early Indian spiritual traditions before the Vedic texts. Likely included animism, ancestor worship, and rituals.",c. 2500 - 1500 BCE
+Judaism,-2000,2000,Middle East & North Africa,firebrick,Ancient Israel,"Monotheistic belief in Yahweh, with teachings from the Torah. Emphasizes covenant, law, and ethical living.",c. 2000 BCE - Present
+Hinduism,-1500,2000,Asia,gold,Ancient India,"Belief in dharma (duty), karma, and reincarnation. Worship of many deities, with Brahman as the ultimate reality.",c. 1500 BCE - Present
+Early Vedic,-1500,-800,Asia,gold,Ancient India,"Foundation of Hinduism, with hymns (Vedas) praising deities. Ritual sacrifices and social order (varna system).",c. 1500 - 800 BCE
+Zoroastrianism,-1000,800,Middle East & North Africa,firebrick,Persian Empire,Dualistic faith with a cosmic struggle between good (Ahura Mazda) and evil (Angra Mainyu). Focus on morality.,c. 1000 BCE - 800 CE
+Late Vedic,-800,200,Asia,gold,Ancient India,"Expansion of philosophical thought, leading to Upanishads. Focus on self-realization, karma, and dharma.",c. 800 BCE - 200 CE
+Shinto,-700,2000,Asia,gold,Japan,"Japanese belief system centered on kami (spirits). Emphasizes rituals, nature worship, and ancestor veneration.",c. 700 BCE - Present
+Jainism,-600,2000,Asia,gold,Ancient India,"Non-theistic faith focused on non-violence (ahimsa), karma, and self-discipline. Emphasizes asceticism.",c. 600 BCE - Present
+Buddhism,-500,2000,Asia,gold,"China, Japan, Korea, Ancient India","Seeks enlightenment through the Four Noble Truths and the Eightfold Path. Emphasizes meditation, karma, and reincarnation.",c. 500 BCE - Present
+Confucianism,-500,2000,Asia,gold,"China, Korea","Focuses on ethics, social harmony, filial piety, and proper behavior. Stresses respect for hierarchy and rituals.",c. 500 BCE - Present
+Taoism,-400,2000,Asia,gold,China,"Advocates living in harmony with the Dao (the Way). Emphasizes balance, simplicity, and natural order.",c. 400 BCE - Present
+Christianity (Catholicism),0,2000,Middle East & North Africa,firebrick,"Western Europe, Byzantine, Roman Empire","Believes in one God, follows the teachings of Jesus Christ and the authority of the Pope. Emphasizes sacraments, tradition, and church hierarchy.",c. 0 CE - Present
+Islam,600,2000,Middle East & North Africa,firebrick,"Islamic Caliphates, Ottoman Empire, Persian Empire","Monotheistic belief in Allah, with the Quran as the holy text. Follows the Five Pillars, including prayer and charity.",c. 600 CE - Present
+Sikhism,1500,2000,Asia,gold,Ancient India,"Monotheistic belief in one God, following the teachings of Guru Nanak. Stresses equality, service, and devotion.",c. 1500 CE - Present
+Christianity (Protestant),1500,2000,Europe,royalblue,"Western Europe, United States of America","Believes in one God and follows Jesus Christ, emphasizing faith alone (sola fide) and scripture alone (sola scriptura). Rejects papal authority and focuses on personal relationship with God.",c. 1500 CE - Present

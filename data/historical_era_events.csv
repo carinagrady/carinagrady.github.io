@@ -1,0 +1,13 @@
+Age,Name of Era,Year Period,Number of Years,Main Event,Details of Events
+Stone,Paleolithic,"3,000,000 - 10,000 BCE"," 2,990,000 ",Homo sapien evolution and the Ice Age,"Use of stone tools, development of language, early art"
+Stone,Mesolithic,"10,000 - 8,000 BCE"," 2,000 ",Transition to farming,"Domestication of animals, microlithic tools, early settlements"
+Stone,Neolithic,"8,000 - 3,000 BCE"," 5,000 ",Agricultural revolution,"Permanent settlements, pottery, weaving, advanced tools"
+Ancient,Bronze Age,"3,000 - 1,200 BCE"," 1,800 ",Writing and structured civilization,"Development of writing systems, organized civilization, trade networks"
+Ancient,Iron Age,"1,200 - 500 BCE", 700 ,Rise of empires,"Widespread iron use, territorial expansion, centralized rule"
+Ancient,Classical Antiquity,500 BCE - 500 CE," 1,000 ",Expansion and political structures,"Urbanization, philosophy, governance, large-scale conflicts"
+Medieval,Early Middle Ages,500 - 1000 CE, 500 ,Decentralization and rise of feudalism,"Local rule, decline of urban centers, self-sufficient economies"
+Medieval,High Middle Ages,1000 - 1300 CE, 300 ,Crusades and scholasticism,"Religious control over society, universities, increased trade"
+Medieval,Late Middle Ages,1300 - 1500 CE, 200 ,Crisis and early Enlightenment thought,"Black Death, political unrest, scientific exploration, early Enlightenment"
+Modern,Early Modern Period,1500 - 1800 CE, 300 ,Renaissance and colonization,"Global exploration, reformation, scientific advancements"
+Modern,Industrial Age,1800 - 1950 CE, 150 ,Industrialization and world wars,"Factories, steam power, electrification, world wars"
+Modern,Contemporary Era,1950 - Present, 70 ,Digital and globalized information,"Computers, internet, space exploration, globalization"

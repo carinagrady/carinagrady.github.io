@@ -1,0 +1,23 @@
+key_civilizations,Empires/States,Rise and Fall Years,Contributions,start_year,end_year,region,legend_color
+United States of America,USA,c. 1776 CE - Present,"Democratic governance, industrial and technological advancements",1776,2024,Americas,darkgreen
+China,"Shang, Zhou, Qin, Han",c. 1600 BCE - Present,"Philosophies, centralized imperial rule, paper, gunpowder, Great Wall construction, silk production",-1600,2000,Asia,gold
+Korea,"Three Kingdoms, Goryeo, Joseon",c. 57 BCE - Present,"Cultural continuity, modern industrialization",-57,2000,Asia,gold
+Japan,Japanese Civilization,c. 250 CE - Present,"Samurai culture, feudal system, industrialization",250,2000,Asia,gold
+Western Europe,Various Monarchies,c. 843 CE - 2000 CE,"Feudalism, centralization, religious authority, dynastic wars",843,2000,Europe,royalblue
+Ottoman Empire,Ottoman Empire,c. 1299 CE - 1922 CE,"Global trade, military prowess, cultural exchange",1299,1922,Middle East & North Africa,firebrick
+West African Kingdoms,"Ghana, Mali, Songhai",c. 300 CE - 1591 CE,"Gold trade, centers of learning, Islamic influence",300,1591,Sub-Saharan Africa,seagreen
+Inca Empire,"Inca, Moche, Nazca",c. 200 CE - 1572 CE,"Engineering (Machu Picchu), road systems, governance without writing",200,1572,Americas,darkgreen
+Maya Civilization,"Olmec, Maya, Aztec",c. 1200 BCE - 1521 CE,"Astronomy, writing systems, architecture, agriculture",-1200,1521,Americas,darkgreen
+Aztec Empire,Aztec Empire,c. 1300 CE - 1521 CE,"Advanced architecture, agriculture (chinampas), military dominance",1300,1521,Americas,darkgreen
+Islamic Caliphates,"Rashidun, Umayyad, Abbasid",c. 632 CE - 1517 CE,"Advancements in science, literature, and trade",632,1517,Middle East & North Africa,firebrick
+Byzantine,Eastern Roman Empire,c. 330 CE - 1453 CE,"Preserved Greek and Roman knowledge, cultural bridge between East and West",330,1453,Europe,royalblue
+Mongol Empire,Mongol Empire,c. 1206 CE - 1368 CE,"Largest contiguous empire, Silk Road expansion, military strategies",1206,1368,Asia,gold
+Norse & Viking Age,Vikings & Norse societies,c. 800 CE - 1100 CE,"Seafaring explorers, trade, influence on European feudalism",800,1100,Europe,royalblue
+Ancient India,"Maurya, Gupta",c. 321 BCE - 550 CE,"Mathematics (zero), science, philosophy",-321,550,Asia,gold
+Roman Empire,Roman Republic & Empire,c. 509 BCE - 476 CE,"Engineering, law, military strategies, governance",-509,476,Europe,royalblue
+Ancient Egypt,Ancient Egypt,c. 3100 BCE - 30 BCE,"Monumental architecture (pyramids, temples), hieroglyphic writing, centralized government, engineering, medicine",-3100,-30,Middle East & North Africa,firebrick
+Ancient Greece,Ancient Greece,c. 800 BCE - 146 BCE,"Democracy, philosophy, art, science",-800,-146,Europe,royalblue
+Phoenicia,Phoenician City-States,c. 1500 BCE - 300 BCE,"Developed one of the first alphabets, advanced maritime trade, shipbuilding innovations, widespread cultural influence",-1500,-300,Middle East & North Africa,firebrick
+Persian Empire,Achaemenid Empire,c. 550 BCE - 330 BCE,"Governance, infrastructure (Royal Road), cultural influence",-550,-330,Middle East & North Africa,firebrick
+Mesopotamia,"Sumer, Akkad, Babylon, Assyria",c. 3100 BCE - 539 BCE,"First known civilization with writing (cuneiform), early cities, codified laws (Hammurabi's Code), irrigation systems",-3100,-539,Middle East & North Africa,firebrick
+Indus Valley,"Harappa, Mohenjo-Daro",c. 2600 BCE - 1900 BCE,"Urban planning with grid cities, drainage and sanitation systems, early trade networks, undeciphered script",-2600,-1900,Asia,gold
