@@ -158,7 +158,7 @@ rpivotTable(
   )
 ```
 
-<br><br> Numbers in a table can provide insight, but **visualization** is an intuitiive way to explore data. Charts and graphs help reveal trends, outliers, and relationships in ways that raw numbers can’t. A few common techniques include **boxplots, histograms, and scatterplots**.
+<br> Numbers in a table can provide insight, but **visualization** is an intuitiive way to explore data. Charts and graphs help reveal trends, outliers, and relationships in ways that raw numbers can’t. A few common techniques include **boxplots, histograms, and scatterplots**.
 
 The boxplot below provides a clear visualization of the same CO₂ emission data from the pivot table.
 
@@ -204,7 +204,7 @@ Remember, EDA is not optional—it is the most important step in any data analys
 The table below breaks down different modeling approaches, from **supervised and unsupervised learning** to **time-series analysis** and **probability-based methods**. These categories help define how data is used, whether it's predicting an outcome, grouping similar observations, or analyzing uncertainty.
 
 | **Category**                 | **Models & Techniques**                                                                                                                    | **Purpose**                                          |
-|-------------------|------------------------------------|-------------------|
+|-------------------|----------------------------------|-------------------|
 | **Supervised Learning**      | Classificaiton (SVM, KNN), Regression (Linear, Logistic, Advanced), Decision Trees (CART, Random Forests), Neural Networks (Deep Learning) | Uses labeled data to predict outcomes.               |
 | **Unsupervised Learning**    | Clustering (k-Means, DBSCAN), Dimensionality Reduction (PCA)                                                                               | Finds patterns in unlabeled data.                    |
 | **Time-Series Models**       | Forecasting (ARIMA, GARCH), Trend Analysis (Exponential Smoothing), Change Detection (CUSUM)                                               | Analyzes temporal dependencies for trend prediction. |
@@ -217,7 +217,7 @@ This may seem like an abstract technical concepts, but models like these actuall
 The second table below walks through the full data modeling pipeline, from **preparing raw data** to **engineering meaningful features**, applying **descriptive, predictive, or prescriptive models**, and finally ensuring the model is **validated and deployable**. Each step plays a role in making data-driven decisions **more accurate, reliable, and actionable**.
 
 | **Stage**                           | **Key Concepts**                                                       | **Purpose**                                             |
-|-------------------|------------------------------|------------------------|
+|-------------------|-----------------------------|------------------------|
 | **Pre-Modeling (Data Preparation)** | Outlier Detection, Data Cleaning, Transformations, Scaling, Imputation | Ensures clean, high-quality data before modeling.       |
 | **Feature Engineering**             | Variable Selection, Principal Component Analysis (PCA)                 | Reduces dimensionality and improves model performance.  |
 | **Descriptive Models**              | Summary Statistics, Data Visualization, Clustering                     | Identifies patterns, trends, and structure in data.     |
@@ -362,15 +362,28 @@ Now on to my favorite subject! Though my career is in engineering and analytics,
 
 ## Anthropology
 
-For most of our history, we were just another species, surviving in small hunter-gatherer bands of up to a few dozen people, navigating the natural world without leaving much of a mark. [But something changed. The Cognitive Revolution, around 70,000 years ago, allowed Homo sapiens to imagine, cooperate, and communicate in ways no species had before.] We developed shared myths and collective identities, laying the foundation for large-scale collaboration. This ability to believe in concepts beyond immediate reality (whether gods, money, or nations) set us apart from the animal kingdom, shaping every system we’ve built since.
+**How did we get here?** Homo sapiens have existed for nearly **300,000 years**, yet the world we live in today—our cities, economies, technologies—has emerged only in a fraction of that time. For most of human history, we were **hunter-gatherers**, navigating the world in small, mobile groups. Civilization as we know it is a recent development, built on a series of **transformative shifts** that reshaped how we think, interact, and organize society. Anthropology examines these changes, uncovering patterns in human culture, behavior, and adaptation while posing a key question:
 
-The Agricultural Revolution, around 10,000 years ago, was another turning point. By settling into farming communities, we created stability, surplus food, and, in turn— civilization. But this shift came with consequences: social hierarchies, land ownership, and the spread of disease. As anthropologist Yuval Noah Harari notes in *Sapiens*, wheat domesticated us as much as we domesticated it. Harari argues that farming trapped us in cycles of toil, while anthropology authors David Graeber and David Wengrow in *The Dawn of Everything* challenges the inevitability of this path, showing that early societies experimented with governance, rejecting or reinventing hierarchy as they saw fit. 
+**How does our evolutionary past still shape us today?**
 
-Food security enabled larger populations, but also introduced inequality and rigid societal roles. Around 5,000 years ago, the first empires, laws, and organized religions emerged, standardizing social structures and reinforcing collective identities. These systems allowed humans to cooperate at an unprecedented scale, but also introduced oppression and warfare on a scale never seen before.
+![](images/historytimeline.PNG)
 
-Then came the Scientific Revolution, just 500 years ago, which reshaped everything. The pursuit of knowledge, technological advancements, and economic expansion accelerated human progress, paving the way for modernity. Today, we stand on the brink of another transformation, one where science and technology might alter the very fabric of what it means to be human. Just as myths once bound us together in tribes, algorithms and artificial intelligence now shape our reality, guiding decisions in ways we don’t always see.
+For most of human history, written records didn’t exist. This period is known as **prehistory** and was defined by survival adaptation and traditions passed down through generations. Early hominids like Neanderthals and Denisovans coexisted with Homo sapiens, but what set **Homo sapiens** apart was **cooperation, imagination, and adaptability**—traits that ultimately made them the only surviving species of the Homo genus.
 
-History is a story of what *could* have happened, rather than what happened. Contrary to populat believe, early humans weren’t locked into one trajectory; they made choices, debated structures, and redefined their societies, just as we do today. Understanding this history reminds us that the world we live in is neither inevitable nor unchangeable. The systems we uphold—governments, economies, social norms—they are built on ideas that can be reimagined. If history shows anything, it’s that we are capable of incredible transformation. The question is: where do we go from here?
+The **Cognitive Revolution** (~70,000 years ago) was a key moment in this process, marking the emergence of abstract thought, symbolic language, and cultural belief systems, which laid the foundation for everything that followed.
+
+![](images/revolutions.PNG){fig-align="center"}
+
+Each major shift in human history transformed how we lived:
+
+- **Cognitive Revolution (~70,000 years ago)**: Expanded our ability to reason, plan, and organize in large groups.
+- **Agricultural Revolution (~10,000 years ago)**: Allowed humans to settle, grow food, and establish permanent communities, leading to population growth but also introducing social hierarchies, property disputes, and disease.
+- **Social Revolution (~5,000 years ago)**: Formalized social structures through laws, religion, and economies, shaping governance and collective identity.
+- **Scientific Revolution (~500 years ago)**: Fueled rapid technological advancements, transforming industries, global power structures, and our relationship with the environment.
+
+These transitions didn’t happen overnight. No one at the time could have foreseen their impact, as **each phase unfolded gradually over thousands of years**, with both progress and unintended consequences.
+
+To truly grasp the scale of these changes, explore the **interactive treemap below**. It visually represents how much time each period spans, offering a striking perspective on just how recent civilization, as we know it, really is.
 
 ```{r, echo=FALSE, message=FALSE}
 library(plotly)
@@ -407,7 +420,9 @@ plot_ly(
     "<b>Era Length: </b>", comma(time_span), " years (", percent_human_history, " of human history)", "<br>",
     "<b>Description: </b>", wrap_text(description, 50)
   ),
-  marker = list(colors = color_scale)
+  marker = list(colors = color_scale),
+  width = 700,
+  height = 450
 ) %>% 
   layout(
     # cleaning up hover textbox
@@ -415,14 +430,26 @@ plot_ly(
       bgcolor = "white", font = list(size = 12), align = "left", width = 300),
     # add title
     title = list(
-        text = "<b>Human History Visual!</b>
+      text = "<b>Human History Visual!</b>
         <span style='font-size:14px'>Can you see where we are today? Try clicking the smaller boxes.</span>",
-        # pushes title higher)
-        y = 1, margin = list(t = 50) 
-))
+      # pushes title higher)
+      y = .95),
+    # size dimensions
+    autosize = FALSE,
+    margin = list(l = 10, r = 0, t = 70, b = 0) 
+  )
 ```
+<br>
 
+So, why does this matter? Because **our biological evolution hasn’t kept pace with the world we’ve created.** The human brain evolved to function in **small, close-knit communities, prioritizing immediate rewards and quick decision-making** that were advantageous for survival. While these instinctual processes still influence behavior, the brain has also developed complex networks that support **long-term planning, abstract reasoning, and technological innovation**. These cognitive abilities allowed us to build civilizations, develop science, and expand our collective knowledge.
 
+![Here's a visual that demonstrates the different areas of the brain, dividing the brain into "reptilian," "mammalian," and "human" layers. This is called the triune brain model, but keep in mind that this model is outdated and is merely shown for learning sake. Modern neuroscience shows that the brain is a network of interconnected regions rather than isolated parts. While some areas are involved in instinct (brainstem), emotion (limbic system), and reasoning (neocortex), these functions are integrated rather than separate. The prefrontal cortex, amygdala, and other regions interact dynamically to regulate decision-making, emotions, and social behavior.](images/brain.jpg)
+
+The tension between these two sides of the brain drives much of human behavior today. **We are wired for rapid, emotionally charged responses driven by deep-seated survival mechanisms, yet we also engage in complex reasoning and problem-solving.** This tension explains so much about human behavior: why we struggle with long-term decision-making, why fear and tribalism still drive much of our politics, and why expoential technologyical advancement can feel overwhelming to a species adapted for gradual change. **No one is immune to the evolutionary forces that shaped us.**
+
+Understanding where we came from helps us make sense of where we are now. Our instincts were shaped for a prehistoric world, yet we navigate an modern world of artificial intelligence, mass information, and rapid globalization. It’s as if **we’re running on an outdated operating system**, trying to process technological advancements that outpace our current cognitive evolution.
+
+It took us tens of thousands of years to develop abstract thought, after all. **Will we one day see another Cognitive Revolution, one that can handle today's information input? Or is technology evolving too fast for us to keep up?** If history has shown us anything, it’s that humans are capable of extraordinary transformation. The real question is: **where do we go from here?**
 
 ## History
 
@@ -434,8 +461,6 @@ plot_ly(
 -   the dark ages from after Roman Empire fell, to the Enlightenment
 -   how the dominant culture that survived has Euro-centric roots, but it doesn't have to be this way
 -   how history often repeats itself every 250 years
-
-blurb on anthropology
 
 ## Philosophy
 
