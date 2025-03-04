@@ -18,7 +18,7 @@ website:
             text: Academic
           - href: portfolio-professional.qmd
             text: Professional
-          - href: portfolio-creative.qmd
+          - href: portfolio-personal.qmd
             text: Creative Arts
       - href: contact.qmd
         text: Contact
