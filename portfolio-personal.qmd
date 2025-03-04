@@ -1,7 +1,15 @@
 ---
 title: "Personal Portfolio"
+title-block-banner: true
 format: html
 editor: visual
+css: styles.css
 ---
 
-Welcome! name, profession, purpose
+Below are some of my research notes, opinion pieces, and project work related to environmental sustainability.
+
+- **[Climate Change IPCC Report Notes](portfolio_filesclimate_change_ipcc_report_notes.pdf)** - Detailed notes on key findings from the Intergovernmental Panel on Climate Change (IPCC) report.
+
+- **[Green New Deal Opinion Piece](portfolio_filesgreen_new_deal_opinon_piece.pdf)** - A personal analysis and perspective on the Green New Deal and its implications for sustainable policy.
+
+- **[Hydroponics Project](portfolio_fileshydroponics_project.pdf)** - A research project exploring hydroponic farming methods for sustainable agriculture.

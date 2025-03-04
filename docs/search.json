@@ -23,9 +23,9 @@
   {
     "objectID": "portfolio-academic.html",
     "href": "portfolio-academic.html",
-    "title": "Academic Portolfio",
+    "title": "Academic Portfolio",
     "section": "",
-    "text": "Welcome! name, profession, purpose"
+    "text": "Below are some of my past projects and reports from my time at Iowa State University (B.S. Mechanical Engineering) and Georgia Institute of Technology (partial M.S. Analytics), categorized by subject area.\n\nEngineering & Technical Reports\n\nFluids Lab Report - Experimental analysis of fluid dynamics principles in a controlled environment.\nHeat Transfer Lab Report - Investigating heat transfer efficiency in different materials and conditions.\nPumped Hydro Storage Thesis Report - A research thesis on energy storage solutions using pumped hydro.\nElectric Vehicles Report - Analysis of electric vehicle technology, performance, and efficiency.\nPower Generation Report - Technical insights into modern power generation systems.\nSenior Capstone Poster - Final-year project poster summarizing key findings and innovations.\nSolarShack Project - A conceptual design for a sustainable, solar-powered housing solution.\n\n\n\nAnalytics & Data Science\n\nBusiness Analytics Report - An in-depth business intelligence analysis using statistical and machine learning methods.\nRegression HW 1 - Linear regression modeling and interpretation.\nRegression HW 2 - Regression assumptions and diagnostics.\nRegression HW 3 - Logistical regression and interpretation.\nRegression HW 4 - Advanced regression and feature selection.\nAnalytics Notes - A compilation of key analytics concepts and methodologies.\nPython Assignment - A web-based Python assignment showcasing coding principles.\n\n\n\nVisual & Interactive Work\n\nISU Infographics - A collection of visual data storytelling projects.\nPython Animation 1 - A dynamic animation generated using Python.\nPython Animation 2 - Another Python-based visualization."
   },
   {
     "objectID": "portfolio-creative.html",
@@ -128,9 +128,9 @@
   {
     "objectID": "portfolio-professional.html",
     "href": "portfolio-professional.html",
-    "title": "Professional Portolfio",
+    "title": "Professional Portfolio",
     "section": "",
-    "text": "Welcome! name, profession, purpose"
+    "text": "Below are some of my past projects, publications, and technical work from a national lab and internships.\n\nResearch & Publications\n\nHydrogen Publication - A research paper on hydrogen energy and its applications in sustainable power generation.\nPressure Plug Patent Request - A patent request document detailing a novel pressure plug system for industrial applications.\nNational Lab E-Database Idea Pitch - A proposal for a centralized electronic database for national laboratory research.\n - A visualization summarizing key research contributions at a national laboratory.\n\n\n\nInternships\n\n - Image from my internship at Diablo Canyon Power Plant (DCPP), where I worked on energy infrastructure.\n - Image from my internship at Loram, focusing on railway maintenance and engineering solutions.\nNuclear Power Plant Systems Drawing - A technical schematic illustrating key components and subsystems in a nuclear power plant."
   },
   {
     "objectID": "knowledge.html#history-religion",
@@ -138,5 +138,19 @@
     "title": "Knowledge",
     "section": "History & Religion",
     "text": "History & Religion\nstone -&gt; ancient -&gt; medieval -&gt; modern\nbelow is more info on what exactly happened and over what time period\n\n\n\n\n\nAge\nName of Era\nYear Period\n# of Years\nMain Event\nDetails of Events\n\n\n\n\nStone\nPaleolithic\n3,000,000 - 10,000 BCE\n2,990,000\nHomo sapien evolution and the Ice Age\nUse of stone tools, development of language, early art\n\n\nStone\nMesolithic\n10,000 - 8,000 BCE\n2,000\nTransition to farming\nDomestication of animals, microlithic tools, early settlements\n\n\nStone\nNeolithic\n8,000 - 3,000 BCE\n5,000\nAgricultural revolution\nPermanent settlements, pottery, weaving, advanced tools\n\n\nAncient\nBronze Age\n3,000 - 1,200 BCE\n1,800\nWriting and structured civilization\nDevelopment of writing systems, organized civilization, trade networks\n\n\nAncient\nIron Age\n1,200 - 500 BCE\n700\nRise of empires\nWidespread iron use, territorial expansion, centralized rule\n\n\nAncient\nClassical Antiquity\n500 BCE - 500 CE\n1,000\nExpansion and political structures\nUrbanization, philosophy, governance, large-scale conflicts\n\n\nMedieval\nEarly Middle Ages\n500 - 1000 CE\n500\nDecentralization and rise of feudalism\nLocal rule, decline of urban centers, self-sufficient economies\n\n\nMedieval\nHigh Middle Ages\n1000 - 1300 CE\n300\nCrusades and scholasticism\nReligious control over society, universities, increased trade\n\n\nMedieval\nLate Middle Ages\n1300 - 1500 CE\n200\nCrisis and early Enlightenment thought\nBlack Death, political unrest, scientific exploration, early Enlightenment\n\n\nModern\nEarly Modern Period\n1500 - 1800 CE\n300\nRenaissance and colonization\nGlobal exploration, reformation, scientific advancements\n\n\nModern\nIndustrial Age\n1800 - 1950 CE\n150\nIndustrialization and world wars\nFactories, steam power, electrification, world wars\n\n\nModern\nContemporary Era\n1950 - Present\n70\nDigital and globalized information\nComputers, internet, space exploration, globalization\n\n\n\n\n\n\n\nthis is all fine and dady, but what were the civilizations? they had names we will only focus on history (not prehistory) because we don’t know much about what happened in prehistory since nothing was recorded\nthe rise & fall of civilizations across the eras\n\n\n\n\n\n\nand here are their religions\n\n\n\n\n\n\n\nMarx’s theory of history, dialectical materialism\ntribe -&gt; kingdom -&gt; empire\nthe general ages, and notable empires\nthe dark ages from after Roman Empire fell, to the Enlightenment\nhow the dominant culture that survived has Euro-centric roots, but it doesn’t have to be this way\nhow history often repeats itself every 250 years"
+  },
+  {
+    "objectID": "portfolio-academic.html#portfolio-work-samples",
+    "href": "portfolio-academic.html#portfolio-work-samples",
+    "title": "Academic Portfolio",
+    "section": "",
+    "text": "Below are some of my past projects and reports, categorized by subject area.\n\n\n\nFluids Lab Report - Experimental analysis of fluid dynamics principles in a controlled environment.\nHeat Transfer Lab Report - Investigating heat transfer efficiency in different materials and conditions.\nPumped Hydro Storage Thesis Report - A research thesis on energy storage solutions using pumped hydro.\nElectric Vehicles Report - Analysis of electric vehicle technology, performance, and efficiency.\nPower Generation Report - Technical insights into modern power generation systems.\n\n\n\n\n\nBusiness Analytics Report - An in-depth business intelligence analysis using statistical and machine learning methods.\nRegression HW 1 - Linear regression modeling and interpretation.\nRegression HW 2 - Regression assumptions and diagnostics.\nRegression HW 3 - Logistical regression and interpretation.\nRegression HW 4 - Advanced regression and feature selection.\nAnalytics Notes - A compilation of key analytics concepts and methodologies.\n\n\n\n\n\n\n\n\nISU Infographics - A collection of visual data storytelling projects.\nPython Animation 1 - A dynamic animation generated using Python.\nPython Animation 2 - Another Python-based visualization demonstrating complex motion.\nPython Assignment - A web-based Python assignment showcasing coding principles.\n\n\n\n\n\nSenior Capstone Poster - Final-year project poster summarizing key findings and innovations.\nSolarShack Project - A conceptual design for a sustainable, solar-powered housing solution."
+  },
+  {
+    "objectID": "portfolio-personal.html",
+    "href": "portfolio-personal.html",
+    "title": "Personal Portfolio",
+    "section": "",
+    "text": "Below are some of my research notes, opinion pieces, and project work related to environmental sustainability.\n\nClimate Change IPCC Report Notes - Detailed notes on key findings from the Intergovernmental Panel on Climate Change (IPCC) report.\nGreen New Deal Opinion Piece - A personal analysis and perspective on the Green New Deal and its implications for sustainable policy.\nHydroponics Project - A research project exploring hydroponic farming methods for sustainable agriculture."
   }
 ]
