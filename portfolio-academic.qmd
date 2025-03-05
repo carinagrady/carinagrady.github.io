@@ -6,7 +6,6 @@ editor: visual
 css: styles.css
 ---
 
-
 Below are some of my past projects and reports from my time at Iowa State University (B.S. Mechanical Engineering) and Georgia Institute of Technology (partial M.S. Analytics), categorized by subject area.
 
 ### Engineering & Technical Reports
@@ -22,12 +21,12 @@ Below are some of my past projects and reports from my time at Iowa State Univer
 ### Analytics & Data Science
 
 -   [**Business Analytics Report**](portfolio/business_analytics_report.pdf) - An in-depth business intelligence analysis using statistical and machine learning methods.
--   [**Regression HW 1**](portfolio/regression_hw1.html) - Linear regression modeling and interpretation.
--   [**Regression HW 2**](portfolio/regression_hw2.html) - Regression assumptions and diagnostics.
--   [**Regression HW 3**](portfolio/regression_hw3.html) - Logistical regression and interpretation.
--   [**Regression HW 4**](portfolio/regression_hw4.html) - Advanced regression and feature selection.
+-   [**Regression Part 1**](portfolio/regression_hw1.html) - Linear regression modeling and interpretation.
+-   [**Regression Part 2 2**](portfolio/regression_hw2.html) - Regression assumptions and diagnostics.
+-   [**Regression Part 3**](portfolio/regression_hw3.html) - Logistical regression and interpretation.
+-   [**Regression Part 4**](portfolio/regression_hw4.html) - Advanced regression and feature selection.
 -   [**Analytics Notes**](portfolio/analytics_notes.pdf) - A compilation of key analytics concepts and methodologies.
--   [**Python Assignment**](portfolio/python_assignment.html) - A web-based Python assignment showcasing coding principles.
+-   [**Python Evaluation**](portfolio/python_assignment.html) - A web-based Python assignment showcasing coding principles.
 
 ### Visual & Interactive Work
 

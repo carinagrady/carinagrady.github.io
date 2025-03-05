@@ -1,0 +1,62 @@
+---
+title: "Work Portfolio"
+title-block-banner: true
+format: html
+editor: visual
+css: styles.css
+
+---
+
+Below are some of my past projects, publications, and consultant work from clients, national labs, and internships.
+
+---
+
+### Consulting  
+
+- **Evaluation, Measurement & Verification (EM&V) Overview**  
+  [EM&V Overview](portfolio_files/emv_doc.pdf) - An introduction to the principles of EM&V, which ensures that energy efficiency programs achieve their intended results. While my client-based EM&V work is proprietary, I regularly conduct impact assessments, data analysis, and reporting to validate energy savings for utilities.  
+  <iframe src="portfolio_files/emv_doc.pdf" width="100%" height="400px"></iframe>
+  
+- **Heat Pump Metering Study**  
+  [Heat Pump Metering Study](portfolio_files/heat_pump_metering_study.pdf) - A comprehensive study on heat pump efficiency in Massachusetts and Connecticut during winter months. I supported the analytics team by processing large datasets to assess seasonal performance and survey responses.
+  <iframe src="portfolio_files/heat_pump_metering_study.pdf" width="100%" height="400px"></iframe>
+
+- **National Residential Efficiency Measures Database (REMD)**  
+  [National Residential Efficiency Measures Database (REMD)](https://remdb.nrel.gov/about) - As part of a team updating the REMD dataset, I helped scrape retail energy pricing data and develop regression models to predict pricing trends for modelers and researchers.
+
+---
+
+### Research & Publications  
+
+- **Hydrogen Storage System Design Tool**  
+  [Hydrogen Publication](portfolio_files/hydrogen_publication.pdf) - My first-author publication on a computational tool for designing adsorbent hydrogen storage systems in fuel cell vehicles. The tool integrates material properties, thermodynamic equations, and system-level modeling to optimize hydrogen storage performance.
+  <iframe src="portfolio_files/hydrogen_publication.pdf" width="100%" height="400px"></iframe>
+
+- **Pressure Plug Patent Request**  
+  [Pressure Plug Patent Request](portfolio_files/pressure_plug_patent_request.pdf) - A patent submission for a low-profile, high-pressure hydrogen tank plug designed for submarine applications. I developed a CAD model for manufacturing and assisted in creating a test plan to validate performance under high pressure.  
+  <iframe src="portfolio_files/pressure_plug_patent_request.pdf" width="100%" height="400px"></iframe>
+
+- **National Lab E-Database Idea Pitch**  
+  [National Lab E-Database Pitch](portfolio_files/national_lab_edatabase_idea_pitch.pdf) - My proposal for a centralized electronic research database to improve time efficiency and knowledge-sharing across the national lab.
+  <iframe src="portfolio_files/national_lab_edatabase_idea_pitch.pdf" width="100%" height="400px"></iframe>
+
+- **National Lab Research**  
+  ![National Lab Research](portfolio_files/national_lab_research.gif)  
+  A few images from my time at the national lab. I worked on flow cell batteries in glove boxes and explored novel 3D printing techniques. The syringe extruder shown was used for preliminary testing of wet carbon fiber-reinforced cement, with frosting and toothpaste serving as test materials for easy cleanup. (It also makes for a fun story.)
+
+---
+
+### Internships  
+
+- **Internship at Nuclear Power Plant**  
+  ![Internship at Nuclear Power Plant](portfolio_files/internship_dcpp.png)  
+  A collage from my time interning at California’s only nuclear power plant, where I gained hands-on experience in power generation and system operations.
+
+  - **Nuclear Power Plant Systems Drawing**  
+  ![Nuclear Power Plant Systems Drawing](portfolio_files/nuclear_powerplant_systems_drawing.png)  
+  A schematic I developed during my internship to illustrate the power generation cycle. I found it quite useful for understanding thermodynamic principles in action.
+
+- **Internship for Mechanical Design**  
+  ![Internship for Mechanical Design](portfolio_files/internship_loram.png)  
+  This Canada-based internship focused on mechanical design for railway maintenance equipment. One of the more amusing moments was a company-wide gathering where we formed a maple leaf, wore red noses, and received bottles of maple syrup as gifts.
+

@@ -446,16 +446,16 @@ Now on to my favorite subject! Though my career is in engineering and analytics,
 
 For most of human history, written records didn’t exist. This period is known as **prehistory** and was defined by survival adaptation and traditions passed down through generations. Early hominids like Neanderthals and Denisovans coexisted with Homo sapiens, but what set **Homo sapiens** apart was **cooperation, imagination, and adaptability**—traits that ultimately made them the only surviving species of the Homo genus.
 
-The **Cognitive Revolution** (~70,000 years ago) was a key moment in this process, marking the emergence of abstract thought, symbolic language, and cultural belief systems, which laid the foundation for everything that followed.
+The **Cognitive Revolution** (\~70,000 years ago) was a key moment in this process, marking the emergence of abstract thought, symbolic language, and cultural belief systems, which laid the foundation for everything that followed.
 
 ![](images/revolutions.PNG){fig-align="center"}
 
 Each major shift in human history transformed how we lived:
 
-- **Cognitive Revolution (~70,000 years ago)**: Expanded our ability to reason, plan, and organize in large groups.
-- **Agricultural Revolution (~10,000 years ago)**: Allowed humans to settle, grow food, and establish permanent communities, leading to population growth but also introducing social hierarchies, property disputes, and disease.
-- **Social Revolution (~5,000 years ago)**: Formalized social structures through laws, religion, and economies, shaping governance and collective identity.
-- **Scientific Revolution (~500 years ago)**: Fueled rapid technological advancements, transforming industries, global power structures, and our relationship with the environment.
+-   **Cognitive Revolution (\~70,000 years ago)**: Expanded our ability to reason, plan, and organize in large groups.
+-   **Agricultural Revolution (\~10,000 years ago)**: Allowed humans to settle, grow food, and establish permanent communities, leading to population growth but also introducing social hierarchies, property disputes, and disease.
+-   **Social Revolution (\~5,000 years ago)**: Formalized social structures through laws, religion, and economies, shaping governance and collective identity.
+-   **Scientific Revolution (\~500 years ago)**: Fueled rapid technological advancements, transforming industries, global power structures, and our relationship with the environment.
 
 These transitions didn’t happen overnight. No one at the time could have foreseen their impact, as **each phase unfolded gradually over thousands of years**, with both progress and unintended consequences.
 
@@ -505,6 +505,7 @@ plot_ly(
     margin = list(l = 10, r = 0, t = 70, b = 0) 
   )
 ```
+
 <br>
 
 So, why does this matter? Because **our biological evolution hasn’t kept pace with the world we’ve created.** The human brain evolved to function in **small, close-knit communities, prioritizing immediate rewards and quick decision-making** that were advantageous for survival. While these instinctual processes still influence behavior, the brain has also developed complex networks that support **long-term planning, abstract reasoning, and technological innovation**. These cognitive abilities allowed us to build civilizations, develop science, and expand our collective knowledge.
@@ -519,6 +520,7 @@ It took us tens of thousands of years to develop abstract thought, after all. **
 
 ## History & Religion
 
+***Under Construction***
 
 ```{r, echo=FALSE, message=FALSE}
 historical_ages <- read_csv("data/historical_ages.csv", show_col_types = FALSE)
@@ -544,7 +546,15 @@ colors <- c(
 
 ```
 
-stone -> ancient -> medieval -> modern
+stone -\> ancient -\> medieval -\> modern
+
+generally....
+pre-history
+ancient Greece & the Roman Empire
+feudalism, religion (dark ages)
+Enlightenment
+Globalization
+Science
 
 below is more info on what exactly happened and over what time period
 
@@ -557,11 +567,9 @@ era_events %>%
 
 ```
 
-this is all fine and dady, but what were the civilizations? they had names
-we will only focus on history (not prehistory) because we don't know much about what happened in prehistory since nothing was recorded
+this is all fine and dady, but what were the civilizations? they had names we will only focus on history (not prehistory) because we don't know much about what happened in prehistory since nothing was recorded
 
 the rise & fall of civilizations across the eras
-
 
 ```{r, echo=FALSE}
 create_historical_plotly(
@@ -594,24 +602,40 @@ create_historical_plotly(
 
 ```
 
-
-
-
 -   Marx's theory of history, dialectical materialism
 -   tribe -\> kingdom -\> empire
 -   the general ages, and notable empires
 -   the dark ages from after Roman Empire fell, to the Enlightenment
 -   how the dominant culture that survived has Euro-centric roots, but it doesn't have to be this way
--   how history often repeats itself every 250 years
+-   how history often repeats itself every 250 years (Strauss-Howe generational theory)
 
 ## Philosophy
 
-blurb on philosophy
+***Under Construction***
+
+- Socrates
+- Plato
+- Aristotle (bring up catharsis; more on this in sociology)
+- hedonism vs. cynic vs. stoic
+- Descartes 
 
 ## Sociology
 
-blurb on sociology
+***Under Construction***
+
+- the medium is the message
+- the culture industry
+- reclaiming conversations
+- bowling alone
+- amusing ourselves to death
 
 ## Psychology
 
-blurb on psychology
+***Under Construction***
+
+- history: freud, jung, Edward Bernays, etc
+- personal trauma
+- cultural trauma (advertising, hustle culture, honor)
+- personality disorders
+- rational vs emotional mind vs wise mind (DBT)
+- different therapy modalities
