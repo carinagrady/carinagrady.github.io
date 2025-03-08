@@ -520,8 +520,6 @@ It took us tens of thousands of years to develop abstract thought, after all. **
 
 ## History & Religion
 
-***Under Construction***
-
 ```{r, echo=FALSE, message=FALSE}
 historical_ages <- read_csv("data/historical_ages.csv", show_col_types = FALSE)
 
@@ -546,17 +544,17 @@ colors <- c(
 
 ```
 
-stone -\> ancient -\> medieval -\> modern
+History is often divided into broad periods based on technological advancements, societal organization, and dominant ideologies. The general progression follows:
 
-generally....
-pre-history
-ancient Greece & the Roman Empire
-feudalism, religion (dark ages)
-Enlightenment
-Globalization
-Science
+- **Stone Age → Ancient → Medieval → Modern** 
 
-below is more info on what exactly happened and over what time period
+In historical sequence: 
+
+- Prehistory → Ancient Greece & the Roman Empire → Feudalism & Religion (Dark Ages) → Enlightenment → Globalization & Science
+
+These transitions were influenced by factors such as **Marx’s theory of history and dialectical materialism**, which frames history as a struggle between economic classes, and **political evolution** from **tribes → kingdoms → empires**.
+
+The table below outlines major historical ages, their defining characteristics, and key events that shaped human civilization.
 
 ```{r, echo=FALSE}
 era_events %>%
@@ -567,9 +565,11 @@ era_events %>%
 
 ```
 
-this is all fine and dady, but what were the civilizations? they had names we will only focus on history (not prehistory) because we don't know much about what happened in prehistory since nothing was recorded
+Each period represents shifts in economic structures, governance, and technological innovations. The transition from hunter-gatherer societies in the **Paleolithic Age** to agrarian communities in the **Neolithic Age** set the foundation for the rise of civilizations. The **Bronze and Iron Ages** introduced writing, trade networks, and structured governance, leading to **Classical Antiquity**, which saw the emergence of philosophy, law, and empire-building.
 
-the rise & fall of civilizations across the eras
+The **Medieval Period** marked decentralization following the collapse of the Roman Empire, with feudalism dominating Europe. The **Renaissance and Early Modern Period** spurred exploration, scientific thought, and global interactions, leading into the **Industrial Age**, where mechanization and world wars reshaped human progress. Finally, the **Contemporary Era** is defined by digital globalization and rapid technological advancements.
+
+While broad historical ages provide structure, civilizations themselves had distinct trajectories. Some expanded through conquest, others thrived through trade, and many fell due to internal decline or external pressures. The chart below visualizes major civilizations across different regions and their timelines.
 
 ```{r, echo=FALSE}
 create_historical_plotly(
@@ -585,7 +585,11 @@ create_historical_plotly(
 )
 ```
 
-and here are their religions
+From the **ancient cities of Mesopotamia and Egypt** to the **global empires of modern times**, each civilization adapted to its environment and left lasting cultural, political, and technological legacies. The decline of empires often coincided with shifts in governance, economic instability, or military conflicts.
+
+Religion has played a fundamental role in shaping human history, often driving social cohesion, political authority, and cultural identity. Many empires justified their rule through divine mandate, while religious movements have both unified and fractured societies.
+
+The timeline below illustrates the emergence of major world religions and their regions of origin.
 
 ```{r, echo=FALSE}
 create_historical_plotly(
@@ -602,40 +606,49 @@ create_historical_plotly(
 
 ```
 
--   Marx's theory of history, dialectical materialism
--   tribe -\> kingdom -\> empire
--   the general ages, and notable empires
--   the dark ages from after Roman Empire fell, to the Enlightenment
--   how the dominant culture that survived has Euro-centric roots, but it doesn't have to be this way
--   how history often repeats itself every 250 years (Strauss-Howe generational theory)
+From **polytheistic traditions** in ancient civilizations to the rise of **monotheistic faiths** and their global influence, religion has shaped governance, philosophy, and societal norms. The dominance of certain religious traditions in specific eras often coincided with the rise of corresponding empires.
+
+Looking at long-term trends, several patterns emerge:
+
+-   **The Dark Ages and Intellectual Revival**: Following the collapse of the Roman Empire, Europe entered a period of feudal fragmentation. However, the Islamic Golden Age preserved and expanded knowledge, influencing the later European Renaissance.
+
+-   **Eurocentric Historical Narratives**: While dominant global narratives often focus on Europe’s progression, civilizations in **Asia, Africa, and the Americas** played equally vital roles in shaping human history.
+
+-   **Cyclical Patterns**: Some historians suggest that history follows cyclical patterns, such as the **Strauss-Howe generational theory**, which proposes societal shifts occurring approximately every **250 years**.
+
+Understanding history through these frameworks allows us to recognize past patterns, appreciate diverse contributions, and anticipate potential future shifts.
+
+to include:
+- rites, rituals, community -> very human
+- more high lvl look at religion origins
 
 ## Philosophy
 
 ***Under Construction***
 
-- Socrates
-- Plato
-- Aristotle (bring up catharsis; more on this in sociology)
-- hedonism vs. cynic vs. stoic
-- Descartes 
+-   Socrates
+-   Plato
+-   Aristotle (bring up catharsis; more on this in sociology)
+-   hedonism vs. cynic vs. stoic
+-   Descartes
 
 ## Sociology
 
 ***Under Construction***
 
-- the medium is the message
-- the culture industry
-- reclaiming conversations
-- bowling alone
-- amusing ourselves to death
+-   the medium is the message
+-   the culture industry
+-   reclaiming conversations
+-   bowling alone
+-   amusing ourselves to death
 
 ## Psychology
 
 ***Under Construction***
 
-- history: freud, jung, Edward Bernays, etc
-- personal trauma
-- cultural trauma (advertising, hustle culture, honor)
-- personality disorders
-- rational vs emotional mind vs wise mind (DBT)
-- different therapy modalities
+-   history: freud, jung, Edward Bernays, etc
+-   personal trauma
+-   cultural trauma (advertising, hustle culture, honor)
+-   personality disorders
+-   rational vs emotional mind vs wise mind (DBT)
+-   different therapy modalities
