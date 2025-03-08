@@ -6,11 +6,6 @@ editor: visual
 css: styles.css
 ---
 
----
-title: "Personal Portfolio"
-output: html_document
----
-
 Below are some of my research notes, opinion pieces, and project work related to environmental sustainability.
 
 - **Hydroponics Project**  
