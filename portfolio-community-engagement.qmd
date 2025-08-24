@@ -1,0 +1,12 @@
+---
+title: "Community Engagement Portfolio"
+title-block-banner: true
+format: html
+editor: visual
+css: styles.css
+---
+
+Below are some of my research notes, opinion pieces, and volunteer work, mostly related to environmental sustainability.
+
+-   **Hydroponics Project**\
+    [Hydroponics Project](portfolio_files/hydroponics_project.pdf) - A hands-on project focused on hydroponic farming to address food insecurity. Our team designed a low-cost hydroponic system that can grow fresh produce year-round. The initiative partnered with seven community organizations and impacted over 2,000 people, mostly affecting children. <iframe src="portfolio_files/hydroponics_project.pdf" width="100%" height="400px"></iframe>

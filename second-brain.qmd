@@ -1,5 +1,5 @@
 ---
-title: "Knowledge"
+title: "Second Brain"
 title-block-banner: true
 format: html
 toc: true

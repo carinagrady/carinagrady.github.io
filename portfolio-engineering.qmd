@@ -1,12 +1,12 @@
 ---
-title: "Work Portfolio"
+title: "Engineering Portfolio"
 title-block-banner: true
 format: html
 editor: visual
 css: styles.css
 ---
 
-Below are some of my past projects, publications, and consultant work from clients, national labs, and internships.
+Below are some of my past engineering-related projects, publications, and consultant work from clients, national labs, and internships.
 
 ------------------------------------------------------------------------
 
@@ -48,10 +48,40 @@ Below are some of my past projects, publications, and consultant work from clien
     ![Internship at Nuclear Power Plant](portfolio_files/internship_dcpp.png)\
     A collage from my time interning at California’s only nuclear power plant, where I gained hands-on experience in power generation and system operations.
 
-    -   **Nuclear Power Plant Systems Drawing**\
-        ![Nuclear Power Plant Systems Drawing](portfolio_files/nuclear_powerplant_systems_drawing.png)\
-        A schematic I developed during my internship to illustrate the power generation cycle. I found it quite useful for understanding thermodynamic principles in action.
+-   **Nuclear Power Plant Systems Drawing**\
+    ![Nuclear Power Plant Systems Drawing](portfolio_files/nuclear_powerplant_systems_drawing.png)\
+    A schematic I developed during my internship to illustrate the power generation cycle. I found it quite useful for understanding thermodynamic principles in action.
 
 -   **Internship for Mechanical Design**\
     ![Internship for Mechanical Design](portfolio_files/internship_loram.png)\
     This Canada-based internship focused on mechanical design for railway maintenance equipment. One of the more amusing moments was a company-wide gathering where we formed a maple leaf, wore red noses, and received bottles of maple syrup as gifts.
+    
+------------------------------------------------------------------------
+
+### Engineering & Technical Reports
+
+Below are some of my past projects and reports from my time at Iowa State University (B.S. Mechanical Engineering) and Georgia Institute of Technology (partial M.S. Analytics), categorized by subject area.
+
+-   [**Fluids Lab Report**](portfolio/fluids_lab_report.pdf) - Experimental analysis of fluid dynamics principles in a controlled environment.
+-   [**Heat Transfer Lab Report**](portfolio/heat_transfer_lab_report.pdf) - Investigating heat transfer efficiency in different materials and conditions.
+-   [**Pumped Hydro Storage Thesis Report**](portfolio/pumped_hydro_storage_thesis_report.pdf) - A research thesis on energy storage solutions using pumped hydro.
+-   [**Electric Vehicles Report**](portfolio/m444_electric_vehicles.pdf) - Analysis of electric vehicle technology, performance, and efficiency.
+-   [**Power Generation Report**](portfolio/m444_power_generation.pdf) - Technical insights into modern power generation systems.
+-   [**Senior Capstone Poster**](portfolio/senior_capstone_poster.pdf) - Final-year project poster summarizing key findings and innovations.
+-   [**SolarShack Project**](portfolio/solarshack.PNG) - A conceptual design for a sustainable, solar-powered housing solution.
+
+### Analytics & Data Science
+
+-   [**Business Analytics Report**](portfolio/business_analytics_report.pdf) - An in-depth business intelligence analysis using statistical and machine learning methods.
+-   [**Regression Part 1**](portfolio/regression_hw1.html) - Linear regression modeling and interpretation.
+-   [**Regression Part 2 2**](portfolio/regression_hw2.html) - Regression assumptions and diagnostics.
+-   [**Regression Part 3**](portfolio/regression_hw3.html) - Logistical regression and interpretation.
+-   [**Regression Part 4**](portfolio/regression_hw4.html) - Advanced regression and feature selection.
+-   [**Analytics Notes**](portfolio/analytics_notes.pdf) - A compilation of key analytics concepts and methodologies.
+-   [**Python Evaluation**](portfolio/python_assignment.html) - A web-based Python assignment showcasing coding principles.
+
+### Visual & Interactive Work
+
+-   [**ISU Infographics**](portfolio/isu_infographics.pdf) - A collection of visual data storytelling projects.
+-   [**Python Animation 1**](portfolio/python_animation_1.mp4) - A dynamic animation generated using Python.
+-   [**Python Animation 2**](portfolio/python_animation_2.mp4) - Another Python-based visualization.
