@@ -6,3 +6,21 @@ editor: visual
 css: styles.css
 ---
 
+### Fiction
+
+-   **The Serpent's Utopia**\
+  [Short Story](portfolio_files/fiction_The Serpent's Utopia.pdf) - blurb
+
+### Poetry
+
+### Spoken Word
+
+### Dance
+
+### Photography
+
+### Songwriting
+
+### Violin
+
+### Visual Art

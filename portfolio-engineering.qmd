@@ -55,7 +55,7 @@ Below are some of my past engineering-related projects, publications, and consul
 -   **Internship for Mechanical Design**\
     ![Internship for Mechanical Design](portfolio_files/internship_loram.png)\
     This Canada-based internship focused on mechanical design for railway maintenance equipment. One of the more amusing moments was a company-wide gathering where we formed a maple leaf, wore red noses, and received bottles of maple syrup as gifts.
-    
+
 ------------------------------------------------------------------------
 
 ### Engineering & Technical Reports
