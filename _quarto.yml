@@ -10,16 +10,16 @@ website:
         text: Home
       - href: about.qmd
         text: About
-      - href: knowledge.qmd
-        text: Knowledge
+      - href: second-brain.qmd
+        text: Second Brain
       - text: Portfolio
         menu:
-          - href: portfolio-academic.qmd
-            text: Academic
-          - href: portfolio-work.qmd
-            text: Work
-          - href: portfolio-personal.qmd
-            text: Personal
+          - href: portfolio-artistic.qmd
+            text: Art
+          - href: portfolio-community.qmd
+            text: Community
+          - href: portfolio-engineering.qmd
+            text: Engineering
       - href: contact.qmd
         text: Contact
 format:
