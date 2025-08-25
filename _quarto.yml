@@ -4,6 +4,7 @@ project:
 
 website:
   title: "Carina Grady"
+  site-url: https://www.carinagrady.com/
   navbar:
     left:
       - href: index.qmd
