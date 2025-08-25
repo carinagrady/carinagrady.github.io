@@ -121,12 +121,12 @@ Systems thinking is a way of **making sense of this complexity**. Instead of jus
 
 Most engineering systems can be broken down into:
 
-| **Component**  | **Definition**                                         | **Example**                                            |
+| **Component** | **Definition** | **Example** |
 |:-----------------:|---------------------------|---------------------------|
-|   **System**   | The entire structure with all its interconnected parts | Electrical grid                                        |
-| **Subsystem**  | A functional unit within the larger system             | Power generation, transmission, distribution           |
-| **Unit Type**  | A specific element within a subsystem                  | Turbine, transformer, solar panel                      |
-| **Operations** | The processes that keep the system running             | Energy flow, load balancing, grid frequency regulation |
+| **System** | The entire structure with all its interconnected parts | Electrical grid |
+| **Subsystem** | A functional unit within the larger system | Power generation, transmission, distribution |
+| **Unit Type** | A specific element within a subsystem | Turbine, transformer, solar panel |
+| **Operations** | The processes that keep the system running | Energy flow, load balancing, grid frequency regulation |
 
 Understanding systems isn’t just about making things more efficient; it’s about making them work better as a whole, long-term. Without a systems mindset, solutions can be short-sighted, solving one issue while creating several new ones. Systems thinking prevents this by keeping the bigger picture in focus. In an increasingly complex world, the ability to **step back, recognize patterns, and optimize for the bigger picture** is what separates quick fixes from **long-lasting solutions**.
 
@@ -282,12 +282,12 @@ Remember, EDA is not optional—it is the most important step in any data analys
 
 The table below breaks down different modeling approaches, from **supervised and unsupervised learning** to **time-series analysis** and **probability-based methods**. These categories help define how data is used, whether it's predicting an outcome, grouping similar observations, or analyzing uncertainty.
 
-| **Category**                 | **Models & Techniques**                                                                                                                    | **Purpose**                                          |
+| **Category** | **Models & Techniques** | **Purpose** |
 |-------------------|----------------------------------|-------------------|
-| **Supervised Learning**      | Classificaiton (SVM, KNN), Regression (Linear, Logistic, Advanced), Decision Trees (CART, Random Forests), Neural Networks (Deep Learning) | Uses labeled data to predict outcomes.               |
-| **Unsupervised Learning**    | Clustering (k-Means, DBSCAN), Dimensionality Reduction (PCA)                                                                               | Finds patterns in unlabeled data.                    |
-| **Time-Series Models**       | Forecasting (ARIMA, GARCH), Trend Analysis (Exponential Smoothing), Change Detection (CUSUM)                                               | Analyzes temporal dependencies for trend prediction. |
-| **Probability-Based Models** | Distribution Fitting, A/B Testing, Markov Chains, Bayesian Statistics, Simulation                                                          | Models uncertainty and probabilistic relationships.  |
+| **Supervised Learning** | Classificaiton (SVM, KNN), Regression (Linear, Logistic, Advanced), Decision Trees (CART, Random Forests), Neural Networks (Deep Learning) | Uses labeled data to predict outcomes. |
+| **Unsupervised Learning** | Clustering (k-Means, DBSCAN), Dimensionality Reduction (PCA) | Finds patterns in unlabeled data. |
+| **Time-Series Models** | Forecasting (ARIMA, GARCH), Trend Analysis (Exponential Smoothing), Change Detection (CUSUM) | Analyzes temporal dependencies for trend prediction. |
+| **Probability-Based Models** | Distribution Fitting, A/B Testing, Markov Chains, Bayesian Statistics, Simulation | Models uncertainty and probabilistic relationships. |
 
 This may seem like an abstract technical concepts, but models like these actually help us make sense of the world. In a way, they’re not so different from how we think; after all, **our brains function like neural networks**, constantly learning from past experiences (our "training data", if you will) and adjusting based on new information. We don’t need massive datasets or code to do it, but the process is familiar: **we take in patterns, form expectations, and refine our judgment**.
 
@@ -295,14 +295,14 @@ This may seem like an abstract technical concepts, but models like these actuall
 
 The second table below walks through the full data modeling pipeline, from **preparing raw data** to **engineering meaningful features**, applying **descriptive, predictive, or prescriptive models**, and finally ensuring the model is **validated and deployable**. Each step plays a role in making data-driven decisions **more accurate, reliable, and actionable**.
 
-| **Stage**                           | **Key Concepts**                                                       | **Purpose**                                             |
+| **Stage** | **Key Concepts** | **Purpose** |
 |-------------------|-----------------------------|------------------------|
-| **Pre-Modeling (Data Preparation)** | Outlier Detection, Data Cleaning, Transformations, Scaling, Imputation | Ensures clean, high-quality data before modeling.       |
-| **Feature Engineering**             | Variable Selection, Principal Component Analysis (PCA)                 | Reduces dimensionality and improves model performance.  |
-| **Descriptive Models**              | Summary Statistics, Data Visualization, Clustering                     | Identifies patterns, trends, and structure in data.     |
-| **Predictive Models**               | Supervised Learning, Time-Series Forecasting                           | Finds hidden relationships and forecasts future trends. |
-| **Prescriptive Models**             | Optimization, Simulation, Game Theory, Reinforcement Learning          | Recommends actions to maximize desired outcomes.        |
-| **Post-Modeling (Deployment)**      | Cross-validation, Model Evaluation, Bias Detection, Interpretability   | Ensures reliability, fairness, and usability of models. |
+| **Pre-Modeling (Data Preparation)** | Outlier Detection, Data Cleaning, Transformations, Scaling, Imputation | Ensures clean, high-quality data before modeling. |
+| **Feature Engineering** | Variable Selection, Principal Component Analysis (PCA) | Reduces dimensionality and improves model performance. |
+| **Descriptive Models** | Summary Statistics, Data Visualization, Clustering | Identifies patterns, trends, and structure in data. |
+| **Predictive Models** | Supervised Learning, Time-Series Forecasting | Finds hidden relationships and forecasts future trends. |
+| **Prescriptive Models** | Optimization, Simulation, Game Theory, Reinforcement Learning | Recommends actions to maximize desired outcomes. |
+| **Post-Modeling (Deployment)** | Cross-validation, Model Evaluation, Bias Detection, Interpretability | Ensures reliability, fairness, and usability of models. |
 
 In many ways, this process mirrors how we reason and navigate the world. We:
 
@@ -323,16 +323,16 @@ And just like AI, we’re constantly learning, adapting, refining, and making de
 
 Despite its power, regression isn’t infallible. It relies on key assumptions:
 
-| **Assumption**             | **Definition**                                                                                     | **Diagnostic Tool**                                               | **Resolution**                                                                                                                                                       |
+| **Assumption** | **Definition** | **Diagnostic Tool** | **Resolution** |
 |-------------------|------------------|------------------|------------------|
-| **Linearity**              | The relationship between the independent and dependent variables should be linear.                 | Scatter plots, Residual vs. Fitted plots                          | Apply logarithmic, square root, or polynomial transformations.                                                                                                       |
-| **Homoscedasticity**       | The variance of residuals should remain constant across all levels of the independent variable(s). | Residual vs. Fitted plot                                          | Use Box-Cox transformation (on response variable), log transformation, or weighted least squares.                                                                    |
-| **Normality of Residuals** | The residuals should be normally distributed for valid hypothesis testing.                         | Q-Q Plots, Histograms                                             | Apply transformations (log, Box-Cox) to the dependent variable. Only evaluate normality using residuals, not the response variable.                                  |
-| **Independence of Errors** | Observations should not be correlated over time (no autocorrelation).                              | Durbin-Watson test, Residual vs. Time plot                        | If data is from a randomized trial, independence is likely established. If from observational studies, check for uncorrelated errors rather than independent errors. |
-| **No Multicollinearity**   | Independent variables should not be highly correlated with each other.                             | Variance Inflation Factor (VIF), Correlation matrix               | Remove/combine highly correlated variables, use PCA, or use lasso, ridge, or elastic net regression.                                                                 |
-| **No Outliers**            | Outliers and high-leverage points should not disproportionately impact the regression model.       | Cook’s Distance, Leverage plots, Box plots                        | Correct or remove.                                                                                                                                                   |
-| **Adequate Sample Size**   | Ensures sufficient observations per predictor variable to avoid overfitting.                       | Rule of thumb: at least 10-15 observations per predictor variable | Increase sample size if necessary to ensure stable coefficient estimates.                                                                                            |
-| **Additivity**             | Interaction effects should be accounted for when necessary.                                        | Test for significant interaction terms.                           | Include interaction terms in the model if needed.                                                                                                                    |
+| **Linearity** | The relationship between the independent and dependent variables should be linear. | Scatter plots, Residual vs. Fitted plots | Apply logarithmic, square root, or polynomial transformations. |
+| **Homoscedasticity** | The variance of residuals should remain constant across all levels of the independent variable(s). | Residual vs. Fitted plot | Use Box-Cox transformation (on response variable), log transformation, or weighted least squares. |
+| **Normality of Residuals** | The residuals should be normally distributed for valid hypothesis testing. | Q-Q Plots, Histograms | Apply transformations (log, Box-Cox) to the dependent variable. Only evaluate normality using residuals, not the response variable. |
+| **Independence of Errors** | Observations should not be correlated over time (no autocorrelation). | Durbin-Watson test, Residual vs. Time plot | If data is from a randomized trial, independence is likely established. If from observational studies, check for uncorrelated errors rather than independent errors. |
+| **No Multicollinearity** | Independent variables should not be highly correlated with each other. | Variance Inflation Factor (VIF), Correlation matrix | Remove/combine highly correlated variables, use PCA, or use lasso, ridge, or elastic net regression. |
+| **No Outliers** | Outliers and high-leverage points should not disproportionately impact the regression model. | Cook’s Distance, Leverage plots, Box plots | Correct or remove. |
+| **Adequate Sample Size** | Ensures sufficient observations per predictor variable to avoid overfitting. | Rule of thumb: at least 10-15 observations per predictor variable | Increase sample size if necessary to ensure stable coefficient estimates. |
+| **Additivity** | Interaction effects should be accounted for when necessary. | Test for significant interaction terms. | Include interaction terms in the model if needed. |
 
 Violating regression assumptions can distort results and lead to unreliable models. This is why **diagnostic tools** are essential in EDA to assess whether a model or its data is valid before blindly trusting it.
 
@@ -546,11 +546,11 @@ colors <- c(
 
 History is often divided into broad periods based on technological advancements, societal organization, and dominant ideologies. The general progression follows:
 
-- **Stone Age → Ancient → Medieval → Modern** 
+-   **Stone Age → Ancient → Medieval → Modern**
 
-In historical sequence: 
+In historical sequence:
 
-- Prehistory → Ancient Greece & the Roman Empire → Feudalism & Religion (Dark Ages) → Enlightenment → Globalization & Science
+-   Prehistory → Ancient Greece & the Roman Empire → Feudalism & Religion (Dark Ages) → Enlightenment → Globalization & Science
 
 These transitions were influenced by factors such as **Marx’s theory of history and dialectical materialism**, which frames history as a struggle between economic classes, and **political evolution** from **tribes → kingdoms → empires**.
 
@@ -618,9 +618,7 @@ Looking at long-term trends, several patterns emerge:
 
 Understanding history through these frameworks allows us to recognize past patterns, appreciate diverse contributions, and anticipate potential future shifts.
 
-to include:
-- rites, rituals, community -> very human
-- more high lvl look at religion origins
+to include: - rites, rituals, community -\> very human - more high lvl look at religion origins
 
 ## Philosophy
 

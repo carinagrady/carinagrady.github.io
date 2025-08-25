@@ -6,21 +6,133 @@ editor: visual
 css: styles.css
 ---
 
-### Fiction
+Below are selections from my artistic portfolio, including fiction, poetry, spoken word, dance, photography, songwriting, music performance, and visual arts. My strongest work is in fiction and poetry, though many of those pieces are reserved for future publication.
 
--   **The Serpent's Utopia**\
-  [Short Story](portfolio_files/fiction_The Serpent's Utopia.pdf) - blurb
+------------------------------------------------------------------------
 
-### Poetry
+## Fiction
 
-### Spoken Word
+**The Serpent's Utopia**, published in a local anthology on the theme of crossroads, is a spoken-word short story inspired by Genesis that explores how growth emerges only when we embrace discomfort and risk.
 
-### Dance
+This piece was written to be heard. Press play to listen to the recorded performance. <audio controls style="width:100%;"> <source src="portfolio_files/fiction_spoken_word_the_serpents_utopia.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <iframe src="portfolio_files/fiction_the_serpents_utopia.pdf" width="100%" height="400px"></iframe>
 
-### Photography
+## Poetry
 
-### Songwriting
+**My Phony Friend** <iframe src="portfolio_files/poem_my_phony_friend.pdf" width="100%" height="400px"></iframe>
 
-### Violin
+**The Violinist's Ballad** <iframe src="portfolio_files/poem_the_violinists_ballad.pdf" width="100%" height="400px"></iframe>
 
-### Visual Art
+**Outside The Box** <iframe src="portfolio_files/poem_outside_the_box.pdf" width="100%" height="400px"></iframe>
+
+**Sorella Gelateria** <iframe src="portfolio_files/poem_sorella_gelateria.pdf" width="100%" height="400px"></iframe>
+
+<details>
+
+<summary>Click for more details:</summary>
+
+What an incredible joy it is to gift poem & art to my favorite small business. I adore the summers filled with bike rides to the local gelateria run by two sisters. The love and tears received warmed my heart.
+
+![](portfolio_files/poem_pic_sorella_gelateria.jpg){width="100%" fig-align="center"}
+
+</details>
+
+**History of Humanity** <iframe src="portfolio_files/poem_history_of_humanity.pdf" width="100%" height="400px"></iframe>
+
+## Spoken Word
+
+::: video-pair
+<video controls playsinline>
+
+<source src="portfolio_files/spoken_word_targeted_advertisement.mp4" type="video/mp4" />
+
+Your browser does not support the video tag.
+
+</video>
+
+<video controls playsinline>
+
+<source src="portfolio_files/spoken_word_o_brother_witness_my_depth.mp4" type="video/mp4" />
+
+Your browser does not support the video tag.
+
+</video>
+:::
+
+## Dance
+
+My partner and I won third place in a **Salsa Competition** with our very first performance and original choreography. I usually dance socially with improvised moves and musicality, but I really enjoyed leaning into the story and emotion for this piece.
+
+<video controls width="100%">
+
+<source src="portfolio_files/dance_salsa_choreo.mp4" type="video/mp4">
+
+Your browser does not support the video tag. </video>
+
+## Photography
+
+![fun with llamas](portfolio_files/collage_llamas.jpg){width="100%" fig-align="center"} ![fun with mountains](portfolio_files/collage_mountains.jpg){width="100%" fig-align="center"} ![fun in the sun](portfolio_files/collage_warmth.jpg){width="100%" fig-align="center"} ![fun with water](portfolio_files/collage_waters.jpg){width="100%" fig-align="center"}
+
+## Songwriting
+
+All songs were created in 2022 to explore lyric and melody. <br><br> <video controls width="50%"> <source src="portfolio_files/song_i_want_to_live.mp4" type="video/mp4"> Your browser does not support the video tag. </video> <br><br> <video controls width="50%"> <source src="portfolio_files/song_the_life_we_live.mp4" type="video/mp4"> Your browser does not support the video tag. </video> <br>
+
+<details>
+
+<summary>Click for more details:</summary>
+
+This song began at a Poetry On Demand stand in Asheville, NC. I shared a few words, and the poet wove them into a poem. I loved it so much that I made it into a song. The original poem is included below. <img src="portfolio_files/lyric_inspos.jpg" width="500px" style="display:block; margin:auto;"/>
+
+</details>
+
+<br> <video controls width="50%"> <source src="portfolio_files/song_the_answer.mp4" type="video/mp4"> Your browser does not support the video tag. </video> <br><br> <video controls width="50%"> <source src="portfolio_files/song_for_you_my_dear.mp4" type="video/mp4"> Your browser does not support the video tag. </video> <br>
+
+<details>
+
+<summary>Click for more details:</summary>
+
+This song came from a playful challenge: I asked a friend for random words to make them into lyrics. The chosen words were:
+
+-   Pomegranates
+-   Blue bonnets
+-   Sweater vest
+-   Sunset
+-   Georgia
+-   Wagon wheel
+
+</details><br>
+
+<video controls width="50%">
+
+<source src="portfolio_files/song_with_you.mp4" type="video/mp4">
+
+Your browser does not support the video tag. </video> <br>
+
+<details>
+
+<summary>Click for more details:</summary>
+
+This song came from a playful challenge: I asked my partner for random words to make them into lyrics. The chosen words were:
+
+-   Cotton candy
+-   Twix
+-   Penguin
+-   New York City
+-   Ice skating
+
+</details>
+
+## Violin
+
+Although I no longer play, violin was once a deep passion of mine. Below are videos from when I was 17/18.
+
+**Violin Looper Performance** of "Secrets" by OneRepublic, in the style of Bryson Andres <video controls width="100%"> <source src="portfolio_files/violin_looper_secrets.mp4" type="video/mp4"> Your browser does not support the video tag. </video>
+
+**Chamber Orchestra Performance** of my arrangement to Lana Del Rey's "Young And Beautiful" <video controls width="100%"> <source src="portfolio_files/violin_young_and_beautiful.mp4" type="video/mp4"> Your browser does not support the video tag. </video>
+
+**Violin & Cello Duet Practice** (unfortunately, I no longer have the composer's name) <audio controls style="width:100%;"> <source src="portfolio_files/violin_duet.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio>
+
+## Visual Art
+
+This garage mural was a collaboration between my friend, her husband, my sister, and me. It has since become a neighborhood landmark, bringing smiles to those who pass by.
+
+![](portfolio_files/art_mural.jpg){width="100%" fig-align="center"}

@@ -16,8 +16,6 @@ website:
         menu:
           - href: portfolio-artistic.qmd
             text: Art
-          - href: portfolio-community.qmd
-            text: Community
           - href: portfolio-engineering.qmd
             text: Engineering
       - href: contact.qmd

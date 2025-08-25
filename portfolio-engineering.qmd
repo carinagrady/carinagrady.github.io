@@ -33,9 +33,6 @@ Below are some of my past engineering-related projects, publications, and consul
     [Pressure Plug Patent Request](portfolio_files/pressure_plug_patent_request.pdf) - A patent submission for a low-profile, high-pressure hydrogen tank plug designed for submarine applications. I developed a CAD model for manufacturing and assisted in creating a test plan to validate performance under high pressure.\
     <iframe src="portfolio_files/pressure_plug_patent_request.pdf" width="100%" height="400px"></iframe>
 
--   **National Lab E-Database Idea Pitch**\
-    [National Lab E-Database Pitch](portfolio_files/national_lab_edatabase_idea_pitch.pdf) - My proposal for a centralized electronic research database to improve time efficiency and knowledge-sharing across the national lab. <iframe src="portfolio_files/national_lab_edatabase_idea_pitch.pdf" width="100%" height="400px"></iframe>
-
 -   **National Lab Research**\
     ![National Lab Research](portfolio_files/national_lab_research.gif)\
     A few images from my time at the national lab. I worked on flow cell batteries in glove boxes and explored novel 3D printing techniques. The syringe extruder shown was used for preliminary testing of wet carbon fiber-reinforced cement, with frosting and toothpaste serving as test materials for easy cleanup. (It also makes for a fun story.)

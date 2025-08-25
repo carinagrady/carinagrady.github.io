@@ -116,3 +116,13 @@ tr:nth-child(even) {
 tr:hover {
     background-color: #f1f1f1 !important;
 }
+
+.video-pair{
+  display:flex;
+  gap:20px;
+  justify-content:center;
+  align-items:flex-start;
+  flex-wrap:wrap; /* stack on narrow screens */
+}
+.video-pair video{ max-width:300px; height:auto; }
+
