@@ -16,6 +16,8 @@ This piece was written to be heard. Press play to listen to the recorded perform
 
 ## Poetry
 
+**They want us addicted to dopamine.** <iframe src="portfolio_files/poem_they_want_us_addicted_to_dopamine" width="100%" height="400px"></iframe>
+
 **My Phony Friend** <iframe src="portfolio_files/poem_my_phony_friend.pdf" width="100%" height="400px"></iframe>
 
 **The Violinist's Ballad** <iframe src="portfolio_files/poem_the_violinists_ballad.pdf" width="100%" height="400px"></iframe>
