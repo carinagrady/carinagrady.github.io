@@ -94,30 +94,32 @@ create_historical_plotly <- function(data,
 
 # The Power of Interdisciplinary Thinking
 
-I've always been drawn to the **new and different**: the ideas that push boundaries, challenge assumptions, and redefine what's possible. Whether it's uncovering patterns in data, questioning long-held beliefs in technology, or exploring the social forces that shape our world, I love the process of discovery. I'm drawn to **understanding how things work**—not just taking them at face value, but exploring **different perspectives and possibilities** to see what else might be there.
+This is probably the nerdiest passion project on this site. I wanted a place to document all the things I find fascinating and keep them somewhere other than the overcrowded corners of my brain. Think of it as a **Carina Encyclopedia of Knowledge™** as an invitation to step into my mind shaped by both my analytical and creative sides.
 
-That's why I find myself at the intersection of **engineering, analytics, and the humanities**. I know it might not seem like the most obvious combination (after all, there is left brain and right brain; numbers and logic on one side, stories and human experience on the other), but to me, they're deeply connected.
+I’ve always been drawn to the new and different: ideas that push boundaries, challenge assumptions, or make me reconsider something I thought I understood. I love finding patterns in data, questioning how technology shapes our lives, digging into the forces behind society and culture, and generally figuring out how things work and why they are the way they are.
+
+That's why I find myself at the intersection of **engineering, analytics, and the humanities**. I know it might not seem like the most obvious combination (after all, there is left brain and right brain; numbers and logic on one side, stories and human experience on the other), but to me, they’ve never felt particularly separate. They’re just different systems of trying to understand the same strange, beautiful world.
 
 ![](images/venndiagram.png){width="500px" fig-align="center"}
 
-Engineering and analytics give us the tools to build and understand complex systems, from energy grids to economic models. But the humanities help us ask the right questions. They remind us that technology doesn't exist in a vacuum; it shapes and is shaped by people, culture, and history. To truly innovate, we need both—the precision of data and the depth of human insight.
+Engineering and analytics give us the tools to build and understand complex systems, from energy grids to economic models. But the humanities help us ask the right questions. They remind us that technology doesn't exist in a vacuum; it shapes and is shaped by people, culture, and history. To truly innovate, we need both: the precision of data and the depth of human insight.
 
 Data can reveal social truths that impacts every individual, engineered solutions can be more effective when they consider human behavior, and storytelling and history can influence innovation. **The world is built on connections between people, ideas, and disciplines**. For me, the best way to make an impact is by embracing that **interconnectedness**, by considering what happens when we bring these fields together. This consideration fuels my curiosity, my work, and my passion for **exploring the bigger picture**.
 
 # [Engineering]{style="font-size: 1.75em;"}
 
-Engineering is the art of creation and problem-solving. It takes the world’s biggest challenges and transforms them into opportunities for innovation. At its heart, it’s about understanding systems and making them more efficient, reliable, and sustainable, all the while blending logic, creativity, and vision to shape the world around us. It’s a field that thrives on curiosity, asking not just how things work, but how they could work better. Whether it’s designing smarter cities, optimizing renewable energy, or advancing technology, engineering is about building what comes next.
+Engineering is the art of creation through problem-solving. It takes complex challenges and turns them into opportunities to build something better. At its core, engineering is about understanding systems and making them more efficient, reliable, and sustainable, blending logic with creativity to shape the world around us.
 
 ## Systems Thinking
 
-Engineers **solve problems by designing systems**. Whether it’s infrastructure, software, energy grids, or manufacturing, real-world engineering challenges aren’t isolated. They exist within immensely complex, interconnected systems, where one change can influence everything else.
+Engineers **solve problems by designing systems**. Whether it’s infrastructure, software, energy grids, or manufacturing, real-world engineering challenges exist within immensely complex, interconnected systems, where one change can influence everything else.
 
-Systems thinking is a way of **making sense of this complexity**. Instead of just focusing on individual components, engineers look at how things interact, how information flows, and how small adjustments ripple through the entire system. Instead of focusing on individual parts, it’s about stepping back and looking at the **bigger picture**. Engineers ask:
+Systems thinking is a way of **making sense of this complexity**. Instead of just focusing on individual components, engineers look at how things interact, how information flows, and how small adjustments ripple through the entire system. Rather than focusing on one individual part, an engineer must step back and look at the **bigger picture**. Engineers ask:
 
--   What are the key parts of this system?
--   How do they influence each other?
--   What happens if something changes?
--   How can we optimize for efficiency, stability, or adaptability?
+- What are the key parts of this system?
+- How do they influence each other?
+- What happens if something changes?
+- How can we optimize for efficiency, stability, or adaptability?
 
 Most engineering systems can be broken down into:
 
@@ -128,31 +130,28 @@ Most engineering systems can be broken down into:
 | **Unit Type** | A specific element within a subsystem | Turbine, transformer, solar panel |
 | **Operations** | The processes that keep the system running | Energy flow, load balancing, grid frequency regulation |
 
-Understanding systems isn’t just about making things more efficient; it’s about making them work better as a whole, long-term. Without a systems mindset, solutions can be short-sighted, solving one issue while creating several new ones. Systems thinking prevents this by keeping the bigger picture in focus. In an increasingly complex world, the ability to **step back, recognize patterns, and optimize for the bigger picture** is what separates quick fixes from **long-lasting solutions**.
+Understanding systems means seeing how individual parts interact and how those interactions shape **long-term outcomes**. Without a systems mindset, solutions can be short-sighted, fixing one problem while quietly creating several others. Systems thinking means **stepping back to see the bigger picture**. In an increasingly complex world, the ability to recognize patterns and understand how different parts influence one another is what separates a quick fix from a **lasting solution**.
 
 ## Energy Systems
 
-**Energy is everywhere.** It moves our bodies, fuels our machines, and powers our cities. But energy itself doesn’t appear or disappear—it transforms. This is the foundation of **thermodynamics**, the study of how energy moves and changes forms.
+**Energy is everywhere.** It moves our bodies, fuels our machines, and powers our cities. Energy constantly changes form, and **thermodynamics** gives us a way to understand those transformations.
 
-At its core is the **conservation of energy**, which states that **energy cannot be created or destroyed, only converted**. Whether in a boiling pot of water, a moving car, or a power plant, the same principle applies:
+One of its foundational principles is the **conservation of energy**: **energy cannot be created or destroyed, only converted from one form to another**. The same rule governs a boiling pot of water, a moving car, and a power plant:
 
-$$
-\Delta E = Q - W
-$$ Expanding for all forms of energy:
+$$\Delta E = Q - W$$
+Expanding for all forms of energy:
 
-$$
-\Delta U + \Delta KE + \Delta PE = Q - W + m \left( \frac{P}{\rho} \right)
-$$
+$$\Delta U + \Delta KE + \Delta PE = Q - W + m \left( \frac{P}{\rho} \right)$$
 
 Where:
 
--   $U$ = Internal energy (heat stored inside an object)
--   $KE$ = Kinetic energy (energy from movement)
--   $PE$ = Potential energy (energy due to position)
--   $Q$ = Heat transfer (energy added or removed)
--   $W$ = Work done (energy used to move something)
--   $m$ = Mass (amount of matter in the system)
--   $P$, $\rho$ = Fluid pressure and density (energy in flowing fluids)
+- $U$ = Internal energy (heat stored inside an object)
+- $KE$ = Kinetic energy (energy from movement)
+- $PE$ = Potential energy (energy due to position)
+- $Q$ = Heat transfer (energy added or removed)
+- $W$ = Work done (energy used to move something)
+- $m$ = Mass (amount of matter in the system)
+- $P$, $\rho$ = Fluid pressure and density (energy in flowing fluids)
 
 These equation may look merely theoretical, but they are the **blueprint for modern civilization**. By understanding how energy moves, engineers have designed systems that harness it efficiently, from the simplest engines to the most advanced power grids. In fact, humans have used energy transformation to our advantage for thousands of years:
 
@@ -169,17 +168,17 @@ According to the National Academy of Engineering, the **number one greatest engi
 
 **The challenge today is not only to generate enough electricity, but distributing it efficiently in a rapidly changing world.** Renewable energy sources like wind and solar introduce variability, requiring new approaches to maintaining a stable power supply. Climate change adds further urgency, demanding that we rethink how electricity is generated, stored, and delivered.
 
-At its core, the grid is a **network of interconnected subsystems**, each with a crucial role:
+Simplified, the grid is a **network of interconnected subsystems**, each with a crucial role:
 
--   **Power Generation** – Energy is produced through coal, natural gas, nuclear, hydro, wind, and solar power.
--   **Transmission** – High-voltage lines move electricity efficiently across long distances.
--   **Distribution** – Local networks step down the voltage and deliver power to homes and businesses.
+- **Power Generation** – Energy is produced through coal, natural gas, nuclear, hydro, wind, and solar power.
+- **Transmission** – High-voltage lines move electricity efficiently across long distances.
+- **Distribution** – Local networks step down the voltage and deliver power to homes and businesses.
 
 For over a century, these components have worked together to provide reliable electricity. But integrating **intermittent renewables** disrupts this balance, introducing complexities that traditional grid models weren’t designed for. The grid must match electricity supply with demand at every moment, but not all power sources operate the same way:
 
--   **Baseline power** – Consistently running power plants, such as nuclear and coal, provide a steady supply of electricity.
--   **Peaker plants** – Gas-powered plants can ramp up quickly during high demand but are expensive and inefficient to run frequently.
--   **Intermittent renewables**– Solar and wind produce energy when nature allows, which doesn’t always align with demand.
+- **Baseline power** – Consistently running power plants, such as nuclear and coal, provide a steady supply of electricity.
+- **Peaker plants** – Gas-powered plants can ramp up quickly during high demand but are expensive and inefficient to run frequently.
+- **Intermittent renewables**– Solar and wind produce energy when nature allows, which doesn’t always align with demand.
 
 Historically, baseline plants handled the majority of energy needs, while peaker plants filled in gaps during peak hours. But as renewables become more common, they disrupt this balance. Without better energy storage or grid flexibility, excess solar energy at noon can go to waste, while evening peaks still rely on fossil fuels.
 
@@ -191,33 +190,33 @@ A quick note on supply and demand. Every year, our demand for electricity increa
 
 Tomorrow’s grid must be **smarter, more flexible**, and **data-driven**. Engineers and analysts are developing solutions such as:
 
--   **Battery storage** – Capturing excess renewable energy for later use.
--   **Decentralized microgrids** – Local energy networks that improve resilience.
--   **Real-time analytics** – Predicting demand fluctuations and optimizing power flow.
--   **Automated grid management** – AI-driven decision-making for efficiency.
+- **Battery storage** – Capturing excess renewable energy for later use.
+- **Decentralized microgrids** – Local energy networks that improve resilience.
+- **Real-time analytics** – Predicting demand fluctuations and optimizing power flow.
+- **Automated grid management** – AI-driven decision-making for efficiency.
 
-The grid may look only like infraastructure, but it is a complex dynamic system that shapes economies and societies. Transforming the grid requires balancing reliability, affordability, and sustainability. Simulating future grid scenarios with data analytics will help ensure a system that works for everyone and defines the future.
+The grid may look only like infrastructure, but it is a complex dynamic system that shapes economies and societies. Transforming the grid requires balancing reliability, affordability, and sustainability. Simulating future grid scenarios with data analytics will help ensure a system that works for everyone and defines the future.
 
 # [Analytics]{style="font-size: 1.75em;"}
 
-**Analytics** is about making sense of the world through **patterns, predictions, and decisions**. It’s a way to represent reality—but no model is a perfect reflection of realitye. As statistician George Box famously put it, *"All models are wrong, but some are useful."* Models simplify complex systems, stripping away details to highlight key relationships. They may **not capture every nuance** to be the truth, but they provide **structured approximations** that help us **understand complexity**.
+**Analytics** is about making sense of the world through **patterns, predictions, and decisions**. It’s a way to represent reality—but keep in mind that no model is a perfect reflection of reality. As statistician George Box famously put it: *"All models are wrong, but some are useful."* Models helps us quantify and thereby understand the world, but they often simplify complex systems, stripping away details to highlight key relationships. They may **not capture every nuance** to be the truth, but they provide **structured approximations** that help us **understand complexity**.
 
-Modeling is often seen as a science, but it’s just as much an **art**. It requires judgment, interpretation, and creativity in defining assumptions, selecting variables, and refining results. Data alone doesn’t tell the full story; the real skill lies in knowing **what to model, how to structure it, and where its limitations lie**. Whether analyzing trends, forecasting outcomes, or optimizing decisions, analytics builds **useful representations of reality**—ones that allow us to think critically, make informed decisions, and continuously refine our understanding.
+Modeling is often seen as a science, but it’s just as much an **art**. It requires judgment, interpretation, and creativity in defining assumptions, selecting variables, and refining results. Data alone doesn’t tell the full story; the real skill lies in knowing **what to model, how to structure it, and where its limitations lie**. Whether analyzing trends, forecasting outcomes, or optimizing decisions, analytics builds **useful representations of reality**, ones that allow us to think critically, make informed decisions, and continuously refine our understanding.
 
 ## Exploratory Data Analysis
 
 Before building any models, **data must be explored, cleaned, and understood**. Exploratory Data Analysis (EDA) is the process of investigating raw data, identifying patterns, and preparing it for meaningful analysis. The reality is that the majority of data science is not about advanced modeling at all; rather, it’s about **making sense of messy, real-world data.**
 
-As John Tukey famously said, *"Embrace your data, not your models."* A model is only as good as the data feeding it. Without a deep understanding of the data itself, even the most sophisticated model will be misleading at best and completely wrong at worst.
+As John Tukey famously said: *"Embrace your data, not your models."* A model is only as good as the data feeding it. Without a deep understanding of the data itself, even the most sophisticated model will be misleading at best and completely wrong at worst.
 
 In a perfect world, data would be pristine: consistent, complete, and ready for analysis. Unfortunately, **real-world data rarely looks like that**. Instead, it comes from multiple sources, gets entered manually, is often missing key details, and sometimes outright wrong. Consider a few real-life challenges:
 
--   **Inconsistent Formatting** – A name might appear as `"J. DOE"`, `"JOHN DOE"`, `"john doe"`, or `"John A. Doe"`, making identity matching difficult.
--   **Entry Errors** – A missing decimal could turn `$100.00` into `$10,000.00`, creating a major outlier.
--   **Conflicting Date Formats** – `"1 January 1970"` and `"01/01/1970"` are the same date but require standardization.
--   **Records Discrepancies** – A hospital’s patient records may vary depending on how different doctors enter information.
--   **Survey Gaps** – Respondents may skip questions, leading to missing values.
--   **Sensor Malfunctions** – Weather stations sometimes record impossible temperatures due to hardware failures.
+- **Inconsistent Formatting** – A name might appear as `"J. DOE"`, `"JOHN DOE"`, `"john doe"`, or `"John A. Doe"`, making identity matching difficult.
+- **Entry Errors** – A missing decimal could turn `$100.00` into `$10,000.00`, creating a major outlier.
+- **Conflicting Date Formats** – `"1 January 1970"` and `"01/01/1970"` are the same date but require standardization.
+- **Records Discrepancies** – A hospital’s patient records may vary depending on how different doctors enter information.
+- **Survey Gaps** – Respondents may skip questions, leading to missing values.
+- **Sensor Malfunctions** – Weather stations sometimes record impossible temperatures due to hardware failures.
 
 Messy data is everywhere, but it is where data science begins. **A robust, well-documented, and reproducible EDA process is the foundation of reliable analysis**. Without it, conclusions are flawed, models are unreliable, and insights become meaningless. Understanding what’s missing, what’s misleading, and what might introduce bias is critical before drawing any conclusions.
 
@@ -306,10 +305,10 @@ The second table below walks through the full data modeling pipeline, from **pre
 
 In many ways, this process mirrors how we reason and navigate the world. We:
 
--   **Gather information first**: just like pre-modeling data preparation.
--   **Find patterns**: similar to descriptive models identifying trends.
--   **Make predictions**: drawing from past experiences, much like predictive models.
--   **Make decisions**: choosing the best action, just like prescriptive models.
+- **Gather information first**: just like pre-modeling data preparation.
+- **Find patterns**: similar to descriptive models identifying trends.
+- **Make predictions**: drawing from past experiences, much like predictive models.
+- **Make decisions**: choosing the best action, just like prescriptive models.
 
 We start by gathering information (pre-modeling), focus on what matters (feature engineering), recognize patterns (descriptive models), anticipate outcomes (predictive models), and, when possible, make decisions to optimize results (prescriptive models). Then we deploy our model by communicating to others—though whether that "model" is fair, accurate, or completely overfitted to our own biases is a whole other discussion (and probably a debate waiting to happen).
 
@@ -319,7 +318,7 @@ And just like AI, we’re constantly learning, adapting, refining, and making de
 
 ## Regression
 
-**Regression** is one of the most fundamental and widely used tools in analytics, and for good reason. At its core, regression helps us quantify relationships between variables, making it a go-to method in research, economics, engineering, and even everyday decision-making. It’s also incredibly **intuitive**—we recognize patterns constantly in our daily lives. For example, we know that more study hours tend to result in better grades, increased exercise often leads to improved health, and a car’s fuel efficiency correlates with its CO₂ emissions. Regression formalizes these observations into a mathematical framework to **predict future outcomes**.
+**Regression** is one of the most fundamental and widely used tools in analytics, and for good reason. Regression helps us quantify relationships between variables, making it a go-to method in research, economics, engineering, and even everyday decision-making. It’s also incredibly **intuitive**; after all, we recognize patterns constantly in our daily lives. For example, we know that more study hours tend to result in better grades, increased exercise often leads to improved health, and a car’s fuel efficiency correlates with its CO₂ emissions. Regression formalizes these observations into a mathematical framework to **predict future outcomes**.
 
 Despite its power, regression isn’t infallible. It relies on key assumptions:
 
@@ -350,13 +349,13 @@ $Y = \beta_0 + \beta_1 X + \varepsilon$
 
 Where:
 
--   $Y$ = dependent variable (the response we want to predict)
--   $X$ = independent variable (the predictor)
--   $\beta_0$ = intercept (the baseline value of $Y$ when $X$ is zero)
--   $\beta_1$ = slope (how much $Y$ changes for each unit increase in $X$)
--   $\varepsilon$ = error term (representing variability not explained by the model)
+- $Y$ = dependent variable (the response we want to predict)
+- $X$ = independent variable (the predictor)
+- $\beta_0$ = intercept (the baseline value of $Y$ when $X$ is zero)
+- $\beta_1$ = slope (how much $Y$ changes for each unit increase in $X$)
+- $\varepsilon$ = error term (representing variability not explained by the model)
 
-Regression models draw a best-fit line through data points, aiming to get as **close as possible** to the actual values while minimizing the difference between predictions and reality. However, no model is perfect—there will always be some error. **Residuals** represent the **gap** between what a model predicts and what actually happens. To measure how well a model fits the data, regression **minimizes the sum of squared residuals**—meaning it finds the line that keeps errors as small as possible while avoiding overcomplicating the model. Squaring the residuals ensures that large mistakes are penalized more, leading to a more reliable and stable model.
+Regression models draw a best-fit line through data points, aiming to get as **close as possible** to the actual values while minimizing the difference between predictions and reality. However, no model is perfect; there will always be some error. **Residuals** represent the **gap** between what a model predicts and what actually happens. To measure how well a model fits the data, regression **minimizes the sum of squared residuals**, meaning it finds the line that keeps errors as small as possible while avoiding overcomplicating the model. Squaring the residuals ensures that large mistakes are penalized more, leading to a more reliable and stable model.
 
 ![This GIF is a handy visualization for understanding **residuals** and how regression minimizes the sum of squared error In **Ordinary Least Squares (OLS) regression**, the goal is to minimize the **vertical** distances between data points and the regression line, optimizing for prediction accuracy in the dependent variable. However, pay close attention to the **gray lines** in this animation—notice how they are **perpendicular** to the principal component line rather than vertical. This highlights the key difference between OLS regression and **Principal Component Analysis (PCA)**: OLS minimizes vertical errors for prediction, while PCA minimizes **orthogonal distances** for finding the direction of maximum variance in the data. OLS is great for prediction tasks but assumes a clear dependent-independent variable relationship, while PCA excels in dimensionality reduction but isn't designed for prediction.](images/pca.gif)
 
@@ -370,9 +369,9 @@ Beyond individual predictors, variables can interact with each other in meaningf
 
 Other specialized forms of regression include:
 
--   **Logistic Regression:** Used when the outcome is categorical (i.e. Yes/No, On/Off, Red/Blue/Yellow).
--   **Polynomial Regression:** Captures non-linear relationships by fitting curves instead of straight lines.
--   **Ridge, Lasso, and Elastic Net Regression:** Address overfitting and improve predictive power by applying penalties to model complexity.
+- **Logistic Regression:** Used when the outcome is categorical (i.e. Yes/No, On/Off, Red/Blue/Yellow).
+- **Polynomial Regression:** Captures non-linear relationships by fitting curves instead of straight lines.
+- **Ridge, Lasso, and Elastic Net Regression:** Address overfitting and improve predictive power by applying penalties to model complexity.
 
 Now, **let’s return to our CO₂ emissions dataset.** Intuitively, we expect larger vehicles to emit more CO₂, but how strong is that relationship? Using regression, we can quantify how much an increase in weight or horsepower influences emissions.
 
@@ -389,13 +388,13 @@ summary(model)
 
 The regression results provide insights into the relationship between **CO₂ emissions (g/mile)** and three predictors: **MPG (fuel efficiency), vehicle weight, and model year**.
 
--   The negative coefficient for **MPG (-1.629)** indicates that for each additional mile per gallon a vehicle achieves, **CO₂ emissions decrease by approximately 1.63 g/mile**, which aligns with expectations—more fuel-efficient cars produce less CO₂.
--   The positive coefficient for **weight (2.85)** suggests that for every additional unit of vehicle weight, **CO₂ emissions increase by about 2.85 g/mile**, reinforcing the idea that heavier vehicles require more energy to move.
--   The **model year coefficient (-1.60)** suggests that for each newer model year, **CO₂ emissions decrease by 1.6 g/mile**, likely due to advancements in fuel efficiency and emissions regulations over time.
--   The **intercept (3875 g/mile)** represents the theoretical CO₂ emissions when all predictor variables are zero, though this isn’t a meaningful real-world scenario.
--   All predictors are highly statistically significant (**p-values \< 2e-16**), indicating strong evidence that these factors influence emissions.
--   The **R-squared value (0.9296)** suggests that the model explains about **92.96% of the variation in CO₂ emissions**, meaning the chosen predictors provide a strong fit to the data.
--   The **F-statistic (7482, p \< 2.2e-16)** confirms that the overall model is highly significant.
+- The negative coefficient for **MPG (-1.629)** indicates that for each additional mile per gallon a vehicle achieves, **CO₂ emissions decrease by approximately 1.63 g/mile**, which aligns with expectations—more fuel-efficient cars produce less CO₂.
+- The positive coefficient for **weight (2.85)** suggests that for every additional unit of vehicle weight, **CO₂ emissions increase by about 2.85 g/mile**, reinforcing the idea that heavier vehicles require more energy to move.
+- The **model year coefficient (-1.60)** suggests that for each newer model year, **CO₂ emissions decrease by 1.6 g/mile**, likely due to advancements in fuel efficiency and emissions regulations over time.
+- The **intercept (3875 g/mile)** represents the theoretical CO₂ emissions when all predictor variables are zero, though this isn’t a meaningful real-world scenario.
+- All predictors are highly statistically significant (**p-values \< 2e-16**), indicating strong evidence that these factors influence emissions.
+- The **R-squared value (0.9296)** suggests that the model explains about **92.96% of the variation in CO₂ emissions**, meaning the chosen predictors provide a strong fit to the data.
+- The **F-statistic (7482, p \< 2.2e-16)** confirms that the overall model is highly significant.
 
 In summary, this model confirms the expected trends—higher MPG and newer model years reduce emissions, while heavier vehicles contribute to increased CO₂ output. All done, right? Not quite. We did not look to see if the dataset violated the assumptions of regression. Let's run a couple of visual diagnostics.
 
@@ -434,7 +433,7 @@ Uh oh, looks like our regression assumptions aren’t holding up well. The **CO�
 
 # [Humanities]{style="font-size: 1.75em;"}
 
-Now on to my favorite subject! Though my career is in engineering and analytics, I spend much of my free time reading and thinking about history, philosophy, anthropology, sociology, and psychology. **Science and data model how things work, but the humanities ask why they matter**, exploring culture, morality, identity, and power. They reveal the patterns in history, thought, and society, much like an engineer studies interconnected systems or an analyst uncovers trends in data. The humanities challenge us to think bigger picture, question assumptions, and engage with complexity, providing the context to what it means to be human.
+Now on to my favorite subject! Though my career is in engineering and analytics, I spend much of my free time reading and thinking about history, philosophy, anthropology, sociology, and psychology. **Science and data model how things work, but the humanities ask why they matter**, exploring culture, morality, identity, the overall human experience. The humanities reveal the patterns in history, thought, and society, much like an engineer studies interconnected systems or an analyst uncovers trends in data. The humanities challenge us to **think critically and engage with complexity**, providing the context to what it means to be human. After all, the idea of humanities as course work traces back to the Greek and Roman tradition of educating a free person, called the **liberal arts**.
 
 ## Anthropology
 
@@ -452,10 +451,10 @@ The **Cognitive Revolution** (\~70,000 years ago) was a key moment in this proce
 
 Each major shift in human history transformed how we lived:
 
--   **Cognitive Revolution (\~70,000 years ago)**: Expanded our ability to reason, plan, and organize in large groups.
--   **Agricultural Revolution (\~10,000 years ago)**: Allowed humans to settle, grow food, and establish permanent communities, leading to population growth but also introducing social hierarchies, property disputes, and disease.
--   **Social Revolution (\~5,000 years ago)**: Formalized social structures through laws, religion, and economies, shaping governance and collective identity.
--   **Scientific Revolution (\~500 years ago)**: Fueled rapid technological advancements, transforming industries, global power structures, and our relationship with the environment.
+- **Cognitive Revolution (\~70,000 years ago)**: Expanded our ability to reason, plan, and organize in large groups.
+- **Agricultural Revolution (\~10,000 years ago)**: Allowed humans to settle, grow food, and establish permanent communities, leading to population growth but also introducing social hierarchies, property disputes, and disease.
+- **Social Revolution (\~5,000 years ago)**: Formalized social structures through laws, religion, and economies, shaping governance and collective identity.
+- **Scientific Revolution (\~500 years ago)**: Fueled rapid technological advancements, transforming industries, global power structures, and our relationship with the environment.
 
 These transitions didn’t happen overnight. No one at the time could have foreseen their impact, as **each phase unfolded gradually over thousands of years**, with both progress and unintended consequences.
 
@@ -512,9 +511,9 @@ So, why does this matter? Because **our biological evolution hasn’t kept pace 
 
 ![Here's a visual that demonstrates the different areas of the brain, dividing the brain into "reptilian," "mammalian," and "human" layers. This is called the triune brain model, but keep in mind that this model is outdated and is merely shown for learning sake. Modern neuroscience shows that the brain is a network of interconnected regions rather than isolated parts. While some areas are involved in instinct (brainstem), emotion (limbic system), and reasoning (neocortex), these functions are integrated rather than separate. The prefrontal cortex, amygdala, and other regions interact dynamically to regulate decision-making, emotions, and social behavior.](images/brain.jpg)
 
-The tension between these two sides of the brain drives much of human behavior today. **We are wired for rapid, emotionally charged responses driven by deep-seated survival mechanisms, yet we also engage in complex reasoning and problem-solving.** This tension explains so much about human behavior: why we struggle with long-term decision-making, why fear and tribalism still drive much of our politics, and why expoential technologyical advancement can feel overwhelming to a species adapted for gradual change. **No one is immune to the evolutionary forces that shaped us.**
+The tension between these two sides of the brain motivates much of human behavior today. **We are wired for rapid, emotionally charged responses driven by deep-seated survival mechanisms, yet we also engage in complex reasoning and problem-solving.** This tension explains so much about human behavior: why we struggle with long-term decision-making, why fear and tribalism still drive much of our politics, and why exponential technological advancement can feel overwhelming to a species adapted for gradual change. **No one is immune to the evolutionary forces that shaped us.**
 
-Understanding where we came from helps us make sense of where we are now. Our instincts were shaped for a prehistoric world, yet we navigate an modern world of artificial intelligence, mass information, and rapid globalization. It’s as if **we’re running on an outdated operating system**, trying to process technological advancements that outpace our current cognitive evolution.
+Understanding where we came from helps us make sense of where we are now. Our instincts were shaped for a prehistoric world, yet we navigate a modern world of artificial intelligence, mass information, and rapid globalization. It’s as if **we’re running on an outdated operating system**, trying to process technological advancements that outpace our current cognitive evolution.
 
 It took us tens of thousands of years to develop abstract thought, after all. **Will we one day see another Cognitive Revolution, one that can handle today's information input? Or is technology evolving too fast for us to keep up?** If history has shown us anything, it’s that humans are capable of extraordinary transformation. The real question is: **where do we go from here?**
 
@@ -546,11 +545,11 @@ colors <- c(
 
 History is often divided into broad periods based on technological advancements, societal organization, and dominant ideologies. The general progression follows:
 
--   **Stone Age → Ancient → Medieval → Modern**
+- **Stone Age → Ancient → Medieval → Modern**
 
 In historical sequence:
 
--   Prehistory → Ancient Greece & the Roman Empire → Feudalism & Religion (Dark Ages) → Enlightenment → Globalization & Science
+- Prehistory → Ancient Greece & the Roman Empire → Feudalism & Religion (Middle Ages) → Enlightenment → Globalization & Science
 
 These transitions were influenced by factors such as **Marx’s theory of history and dialectical materialism**, which frames history as a struggle between economic classes, and **political evolution** from **tribes → kingdoms → empires**.
 
@@ -587,7 +586,7 @@ create_historical_plotly(
 
 From the **ancient cities of Mesopotamia and Egypt** to the **global empires of modern times**, each civilization adapted to its environment and left lasting cultural, political, and technological legacies. The decline of empires often coincided with shifts in governance, economic instability, or military conflicts.
 
-Religion has played a fundamental role in shaping human history, often driving social cohesion, political authority, and cultural identity. Many empires justified their rule through divine mandate, while religious movements have both unified and fractured societies.
+Religion has played a fundamental role in shaping human history. Many empires justified their rule through divine mandate, while religious movements have both unified and fractured societies.
 
 The timeline below illustrates the emergence of major world religions and their regions of origin.
 
@@ -610,13 +609,15 @@ From **polytheistic traditions** in ancient civilizations to the rise of **monot
 
 Looking at long-term trends, several patterns emerge:
 
--   **The Dark Ages and Intellectual Revival**: Following the collapse of the Roman Empire, Europe entered a period of feudal fragmentation. However, the Islamic Golden Age preserved and expanded knowledge, influencing the later European Renaissance.
+- **The Dark Ages and Intellectual Revival**: Following the collapse of the Roman Empire, Europe entered a period of feudal fragmentation. However, the Islamic Golden Age preserved and expanded knowledge, influencing the later European Renaissance.
 
--   **Eurocentric Historical Narratives**: While dominant global narratives often focus on Europe’s progression, civilizations in **Asia, Africa, and the Americas** played equally vital roles in shaping human history.
+- **Eurocentric Historical Narratives**: While dominant global narratives often focus on Europe’s progression, civilizations in **Asia, Africa, and the Americas** played equally vital roles in shaping human history.
 
--   **Cyclical Patterns**: Some historians suggest that history follows cyclical patterns, such as the **Strauss-Howe generational theory**, which proposes societal shifts occurring approximately every **250 years**.
+- **Cyclical Patterns**: Some historians suggest that history follows cyclical patterns, such as the **Strauss-Howe generational theory**, which proposes societal shifts occurring approximately every **250 years**.
 
 Understanding history through these frameworks allows us to recognize past patterns, appreciate diverse contributions, and anticipate potential future shifts.
+
+***Under Construction***
 
 to include: - rites, rituals, community -\> very human - more high lvl look at religion origins
 
@@ -624,29 +625,29 @@ to include: - rites, rituals, community -\> very human - more high lvl look at r
 
 ***Under Construction***
 
--   Socrates
--   Plato
--   Aristotle (bring up catharsis; more on this in sociology)
--   hedonism vs. cynic vs. stoic
--   Descartes
+- Socrates
+- Plato
+- Aristotle (bring up catharsis; more on this in sociology)
+- hedonism vs. cynic vs. stoic
+- Descartes
 
 ## Sociology
 
 ***Under Construction***
 
--   the medium is the message
--   the culture industry
--   reclaiming conversations
--   bowling alone
--   amusing ourselves to death
+- the medium is the message
+- the culture industry
+- reclaiming conversations
+- bowling alone
+- amusing ourselves to death
 
 ## Psychology
 
 ***Under Construction***
 
--   history: freud, jung, Edward Bernays, etc
--   personal trauma
--   cultural trauma (advertising, hustle culture, honor)
--   personality disorders
--   rational vs emotional mind vs wise mind (DBT)
--   different therapy modalities
+- history: freud, jung, Edward Bernays, etc
+- personal trauma
+- cultural trauma (advertising, hustle culture, honor)
+- personality disorders
+- rational vs emotional mind vs wise mind (DBT)
+- different therapy modalities
