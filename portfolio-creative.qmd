@@ -4,6 +4,8 @@ title-block-banner: true
 format: html
 editor: visual
 css: styles.css
+resources:
+  - portfolio_files/**
 ---
 
 Below are selections from my creative portfolio, spanning fiction, poetry, spoken word, dance, photography, songwriting, music performance, and visual art. My strongest work is in fiction and poetry, though much of it is currently reserved for future publication, so only a small selection appears here.
@@ -41,17 +43,17 @@ What an incredible joy it is to gift poem & art to my favorite small business. I
 Here are two glimpses into my spoken word work. On the left is a poem I performed to open an EDM festival set; on the right is my first open mic piece, a humorous poem about targeted advertising. These days, I gravitate toward cultural, socioeconomic, and political subjects, often between making people laugh and making the room go quiet.
 
 ::: video-pair
-<video controls playsinline preload="none" poster="portfolio_files/spoken_word_solstice_preview.png">
-
-```{=html}
-<source
+<video
+  controls
+  playsinline
+  preload="none"
+  poster="portfolio_files/spoken_word_solstice_preview.png"
+>
+  <source
     src="portfolio_files/spoken_word_solstice.mp4"
     type="video/mp4"
   />
-```
-
-Your browser does not support the video tag.
-
+  Your browser does not support the video tag.
 </video>
 
 <video controls playsinline>
@@ -67,7 +69,7 @@ Your browser does not support the video tag.
 
 My partner and I won third place in a salsa competition with our first performance and original choreography. I usually dance socially and improvise, but I loved exploring the story and emotion of this piece.W e now teach nonprofit salsa and bachata dance lessons, with proceeds supporting mutual aid through our local arts collective.
 
-<video controls width="80%">
+<video controls width="80%" poster="portfolio_files/dance_salsa_choreo_preview.png">
 
 <source src="portfolio_files/dance_salsa_choreo.mp4" type="video/mp4">
 
