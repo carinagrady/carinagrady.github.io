@@ -10,20 +10,6 @@ Below are some of my past engineering-related projects, publications, and consul
 
 ------------------------------------------------------------------------
 
-### Consulting
-
-- **Evaluation, Measurement & Verification (EM&V) Overview**\
-  [EM&V Overview](portfolio_files/emv_doc.pdf) - An introduction to the principles of EM&V, which ensures that energy efficiency programs achieve their intended results. While my client-based EM&V work is proprietary, I regularly conduct impact assessments, data analysis, and reporting to validate energy savings for utilities.\
-  <iframe src="portfolio_files/emv_doc.pdf" width="100%" height="400px"></iframe>
-
-- **Heat Pump Metering Study**\
-  [Heat Pump Metering Study](portfolio_files/heat_pump_metering_study.pdf) - A comprehensive study on heat pump efficiency in Massachusetts and Connecticut during winter months. I supported the analytics team by processing large datasets to assess seasonal performance and survey responses. <iframe src="portfolio_files/heat_pump_metering_study.pdf" width="100%" height="400px"></iframe>
-
-- **National Residential Efficiency Measures Database (REMD)**\
-  [National Residential Efficiency Measures Database (REMD)](https://remdb.nrel.gov/about) - As part of a team updating the REMD dataset, I helped scrape retail energy pricing data and develop regression models to predict pricing trends for modelers and researchers.
-
-------------------------------------------------------------------------
-
 ### Research & Publications
 
 - **Hydrogen Storage System Design Tool**\
@@ -37,6 +23,20 @@ Below are some of my past engineering-related projects, publications, and consul
   ![National Lab Research](portfolio_files/national_lab_research.gif)\
   A few images from my time at the national lab. I worked on flow cell batteries in glove boxes and explored novel 3D printing techniques. The syringe extruder shown was used for preliminary testing of wet carbon fiber-reinforced cement, with frosting and toothpaste serving as test materials for easy cleanup. (It also makes for a fun story.)
 
+------------------------------------------------------------------------
+
+### Consulting
+
+- **Evaluation, Measurement & Verification (EM&V) Overview**\
+  [EM&V Overview](portfolio_files/emv_doc.pdf) - An introduction to the principles of EM&V, which ensures that energy efficiency programs achieve their intended results. While my client-based EM&V work is proprietary, I regularly conduct impact assessments, data analysis, and reporting to validate energy savings for utilities.\
+  <iframe src="portfolio_files/emv_doc.pdf" width="100%" height="400px"></iframe>
+
+- **Heat Pump Metering Study**\
+  [Heat Pump Metering Study](portfolio_files/heat_pump_metering_study.pdf) - A comprehensive study on heat pump efficiency in Massachusetts and Connecticut during winter months. I supported the analytics team by processing large datasets to assess seasonal performance and survey responses. <iframe src="portfolio_files/heat_pump_metering_study.pdf" width="100%" height="400px"></iframe>
+
+- **National Residential Efficiency Measures Database (REMD)**\
+  [National Residential Efficiency Measures Database (REMD)](https://remdb.nrel.gov/about) - As part of a team updating the REMD dataset, I helped scrape retail energy pricing data and develop regression models to predict pricing trends for modelers and researchers.
+  
 ------------------------------------------------------------------------
 
 ### Internships
