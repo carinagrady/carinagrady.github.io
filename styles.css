@@ -23,8 +23,22 @@
 
 /* Title banner styling */
 .quarto-title-banner {
-    background-color: #1C1C1E !important; /* Dark background */
+    background-color: #1C1C1E !important;
     color: white !important;
+
+    /* Reduce banner height */
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+}
+
+/* Reduce space below title banner */
+#title-block-header {
+    margin-bottom: 0.5rem !important;
+}
+
+/* Reduce top spacing in main page content */
+main.content {
+    padding-top: 0 !important;
 }
 
 /* Ensures title and subtitle text are white */
@@ -35,7 +49,7 @@
 
 /* Title font styling */
 .title {
-    font-size: 70px;
+    font-size: 60px;
     font-weight: bold;
     text-align: left;
 }
@@ -67,7 +81,7 @@ input, textarea {
 }
 
 button {
-    background-color: #31552e; /* Match site theme */
+    background-color: #31552e;
     color: white;
     border: none;
     padding: 5px;
@@ -90,10 +104,10 @@ table {
     border: 1px solid #ddd;
 }
 
-/* Table header styling - FORCES color override */
+/* Table header styling */
 th {
-    background-color: #2c3e50 !important;  /* Dark blue-gray */
-    color: white !important;  /* White text */
+    background-color: #2c3e50 !important;
+    color: white !important;
     font-weight: bold;
     font-size: 18px !important;
     padding: 12px;
@@ -117,12 +131,50 @@ tr:hover {
     background-color: #f1f1f1 !important;
 }
 
-.video-pair{
-  display:flex;
-  gap:20px;
-  justify-content:center;
-  align-items:flex-start;
-  flex-wrap:wrap; /* stack on narrow screens */
+/* Side-by-side videos */
+.video-pair {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
 }
-.video-pair video{ max-width:300px; height:auto; }
 
+.video-pair video {
+    max-width: 300px;
+    height: auto;
+}
+
+/* Animal walking across bottom of homepage */
+.animal-crossing {
+    position: relative;
+    width: 100vw;
+    height: 140px;
+    overflow: hidden;
+
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+
+    margin-top: 2rem;
+}
+
+.animal-crossing img {
+    position: absolute;
+    bottom: 10px;
+    height: 110px;
+    width: auto;
+
+    animation: animal-walk 18s linear infinite;
+}
+
+@keyframes animal-walk {
+    from {
+        left: 0;
+        transform: translateX(-100%);
+    }
+
+    to {
+        left: 100%;
+        transform: translateX(0);
+    }
+}

@@ -25,3 +25,7 @@ I’m a literary activist interested in what it means to be human in a strange (
 
 This site is built entirely with [Quarto](https://quarto.org/) and R markdown!
 View the source code on [GitHub](https://github.com/caringrad/carinagrady.github.io).
+
+<div class="animal-crossing">
+  <img src="images/walking_llama.gif" alt="">
+</div>
