@@ -21,6 +21,8 @@ website:
             text: Creative
           - href: portfolio-engineering.qmd
             text: Engineering
+      - href: resume.qmd
+        text: Resumé
       - href: contact.qmd
         text: Contact
 format:
