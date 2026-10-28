@@ -7,11 +7,18 @@
     "text": "So you stumbled upon my website…\nI suppose that means I can indulge you with a story or two.\nThe 21st century is a period defined by globalization, acceleration, and fragmentation. In many ways, so am I. I’m the daughter of an immigrant, raised less in one physical place I could call home than in the strange, borderless digital world my generation inherited. Long before I did anything literary in person, I was writing online with strangers scattered across the internet, building little worlds with people I would never meet.\nI began my career as an engineer. I published research on hydrogen fuel cells, modeled the movement of nuclear drums, and managed data infrastructure for electric utilities. Eventually, I left corporate life for a path far less certain but far more meaningful to me: one centered on writing, community, and the complicated business of being alive.\nNow, in Lexington, Kentucky, I’ve immersed myself in the literary and civic life around me. I’m rather fond of living between the analytical and the creative, bringing the systems-minded curiosity that once drew me to engineering into poetry, fiction, organizing, volunteering, and community building.\nI’m currently working on a few secret pieces. The least secret of them is one I share rather openly at open mics: Suffering Is Good for Business, a poetry collection that uses humor, satire, and skit-like pieces to examine a culture of consumption, distraction, superficiality, performance, and apathy.\nThese days, you can usually find me performing radical poetry at open mics, reading old books, volunteering at the library bookstore, salsa dancing until sunrise, gathering writers around mildly revolutionary ideas, or otherwise indulging my fondness for the whimsical, eccentric, and unapologetically sincere.\nSo, yes, you stumbled upon my little lair of oddities and curiosities. It isn’t especially polished, and it’s probably stranger and more amusing than professional, but hey, at least now you know a human lives here rather than an artificially intelligent robot.\nReach out if you’d like. I’m always happy to converse about art, literature, technology, politics, culture, community, or whatever other peculiar humanistic nuance comes to mind."
   },
   {
-    "objectID": "portfolio-community.html",
-    "href": "portfolio-community.html",
-    "title": "Community Engagement Portfolio",
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Resumé",
     "section": "",
-    "text": "Below are some of my research notes, opinion pieces, and volunteer work, mostly related to environmental sustainability.\n\nHydroponics Project\nHydroponics Project - A hands-on project focused on hydroponic farming to address food insecurity. Our team designed a low-cost hydroponic system that can grow fresh produce year-round. The initiative partnered with seven community organizations and impacted over 2,000 people, mostly affecting children."
+    "text": "Download current resumé"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome!",
+    "section": "",
+    "text": "Hey there! I’m Carina Grady.\nI’m a literary activist interested in what it means to be human in a strange (brave?) new world. I began my career as an engineer, publishing research long before any of my poems made it into print. Now, I organize literary spaces, facilitate writing communities, teach dance as connection, and write poetry and fiction examining extractive capitalism, technological alienation, and an emerging technofeudalism. This site is a reflection of everything I’m passionate about; I love a good deep-dive into analytics just as much as I love a lively dance floor or a compelling poem. Take a look around, and if something sparks an idea, let’s connect!\n\nThis site is built entirely with Quarto and R markdown! View the source code on GitHub."
   },
   {
     "objectID": "portfolio-engineering.html",
@@ -112,90 +119,6 @@
     "text": "Psychology\nUnder Construction\n\nhistory: freud, jung, Edward Bernays, etc\npersonal trauma\ncultural trauma (advertising, hustle culture, honor)\npersonality disorders\nrational vs emotional mind vs wise mind (DBT)\ndifferent therapy modalities"
   },
   {
-    "objectID": "portfolio-artistic.html",
-    "href": "portfolio-artistic.html",
-    "title": "Creative Portfolio",
-    "section": "",
-    "text": "Below are selections from my creative portfolio, spanning fiction, poetry, spoken word, dance, photography, songwriting, music performance, and visual art. My strongest work is in fiction and poetry, though much of it is currently reserved for future publication, so only a small selection appears here."
-  },
-  {
-    "objectID": "portfolio-artistic.html#fiction",
-    "href": "portfolio-artistic.html#fiction",
-    "title": "Creative Portfolio",
-    "section": "Fiction",
-    "text": "Fiction\nThe Serpent’s Utopia, published in a local anthology on the theme of crossroads, is a spoken-word short story inspired by Genesis that explores how growth emerges only when we embrace discomfort and risk.\nThis piece was written to be heard. Press play to listen to the recorded performance.   Your browser does not support the audio element."
-  },
-  {
-    "objectID": "portfolio-artistic.html#poetry",
-    "href": "portfolio-artistic.html#poetry",
-    "title": "Creative Portfolio",
-    "section": "Poetry",
-    "text": "Poetry\nMost of my poetry examines the contradictions of contemporary life, especially technology, consumption, loneliness, freedom, and connection, often through humor or the experimentation with form.\nAre we all ADHD? \nA Broken Freedom \nThe Violinist’s Ballad (published by Yearling) \nSorella Gelateria (gifted & displayed) \n\n\nClick for more details:\n\nWhat an incredible joy it is to gift poem & art to my favorite small business. I adore the summers filled with bike rides to the local gelateria run by two sisters. The love and tears received warmed my heart."
-  },
-  {
-    "objectID": "portfolio-artistic.html#spoken-word",
-    "href": "portfolio-artistic.html#spoken-word",
-    "title": "Creative Portfolio",
-    "section": "Spoken Word",
-    "text": "Spoken Word\nHere are two glimpses into my spoken word work. On the left is a poem I performed to open an EDM festival set; on the right is my first open mic piece, a humorous poem about targeted advertising. These days, I gravitate toward cultural, socioeconomic, and political subjects, often between making people laugh and making the room go quiet.\n\n\n\nYour browser does not support the video tag.\n\n\n\nYour browser does not support the video tag."
-  },
-  {
-    "objectID": "portfolio-artistic.html#dance",
-    "href": "portfolio-artistic.html#dance",
-    "title": "Creative Portfolio",
-    "section": "Dance",
-    "text": "Dance\nMy partner and I won third place in a salsa competition with our first performance and original choreography. I usually dance socially and improvise, but I loved exploring the story and emotion of this piece.W e now teach nonprofit salsa and bachata dance lessons, with proceeds supporting mutual aid through our local arts collective.\n\n\nYour browser does not support the video tag.\n\n\n\n\nYour browser does not support the video tag.\n\n\n\nYour browser does not support the video tag."
-  },
-  {
-    "objectID": "portfolio-artistic.html#photography",
-    "href": "portfolio-artistic.html#photography",
-    "title": "Creative Portfolio",
-    "section": "Photography",
-    "text": "Photography"
-  },
-  {
-    "objectID": "portfolio-artistic.html#songwriting",
-    "href": "portfolio-artistic.html#songwriting",
-    "title": "Creative Portfolio",
-    "section": "Songwriting",
-    "text": "Songwriting\nAll songs were created in 2022 to explore lyric and melody.\n\n\n\nYour browser does not support the video tag.\n\n\n\nYour browser does not support the video tag.\n\n\n\n\nClick for more details:\n\nThis song began at a Poetry On Demand stand in Asheville, NC. I shared a few words, and the poet wove them into a poem. I loved it so much that I made it into a song. The original poem is included below. \n\n\n\n\nYour browser does not support the video tag.\n\n\n\nYour browser does not support the video tag.\n\n\n\n\nClick for more details:\n\nThis song came from a playful challenge: For the left song, I asked a friend for random words to make them into lyrics. The chosen words were:\n\nPomegranates\nBlue bonnets\nSweater vest\nSunset\nGeorgia\nWagon wheel\n\nFor the right song, my partner picked:\n\nCotton candy\nTwix\nPenguin\nNew York City\nIce skating"
-  },
-  {
-    "objectID": "portfolio-artistic.html#violin",
-    "href": "portfolio-artistic.html#violin",
-    "title": "Creative Portfolio",
-    "section": "Violin",
-    "text": "Violin\nAlthough I no longer play, violin was once a deep passion of mine. Below are videos from when I was 17/18.\nViolin Looper Performance of “Secrets” by OneRepublic, in the style of Bryson Andres   Your browser does not support the video tag. \nChamber Orchestra Performance of my arrangement to Lana Del Rey’s “Young And Beautiful”   Your browser does not support the video tag. \nViolin & Cello Duet Practice (unfortunately, I no longer have the composer’s name)   Your browser does not support the audio element."
-  },
-  {
-    "objectID": "portfolio-artistic.html#visual-art",
-    "href": "portfolio-artistic.html#visual-art",
-    "title": "Creative Portfolio",
-    "section": "Visual Art",
-    "text": "Visual Art\nThis garage mural was a collaborative project between my friend and her husband, my sister, and me. It has since become a neighborhood landmark, bringing smiles to those who pass by."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome!",
-    "section": "",
-    "text": "Hey there! I’m Carina Grady.\nI’m a literary activist interested in what it means to be human in a strange (brave?) new world. I began my career as an engineer, publishing research long before any of my poems made it into print. Now, I organize literary spaces, facilitate writing communities, teach dance as connection, and write poetry and fiction examining extractive capitalism, technological alienation, and an emerging technofeudalism. This site is a reflection of everything I’m passionate about; I love a good deep-dive into analytics just as much as I love a lively dance floor or a compelling poem. Take a look around, and if something sparks an idea, let’s connect!\n\nThis site is built entirely with Quarto and R markdown! View the source code on GitHub."
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
-    "section": "",
-    "text": "Have a question or want to connect? Fill out the form below, and I’ll get back to you!\n\nName: \nEmail: \nMessage:\n\n\nSend Message"
-  },
-  {
-    "objectID": "resume.html",
-    "href": "resume.html",
-    "title": "Resumé",
-    "section": "",
-    "text": "Download current resumé"
-  },
-  {
     "objectID": "portfolio-creative.html",
     "href": "portfolio-creative.html",
     "title": "Creative Portfolio",
@@ -257,5 +180,19 @@
     "title": "Creative Portfolio",
     "section": "Visual Art",
     "text": "Visual Art\nThis garage mural was a collaborative project between my friend and her husband, my sister, and me. It has since become a neighborhood landmark, bringing smiles to those who pass by."
+  },
+  {
+    "objectID": "portfolio-community.html",
+    "href": "portfolio-community.html",
+    "title": "Community Engagement Portfolio",
+    "section": "",
+    "text": "Below are some of my research notes, opinion pieces, and volunteer work, mostly related to environmental sustainability.\n\nHydroponics Project\nHydroponics Project - A hands-on project focused on hydroponic farming to address food insecurity. Our team designed a low-cost hydroponic system that can grow fresh produce year-round. The initiative partnered with seven community organizations and impacted over 2,000 people, mostly affecting children."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "Have a question or want to connect? Fill out the form below, and I’ll get back to you!\n\nName: \nEmail: \nMessage:\n\n\nSend Message"
   }
 ]
