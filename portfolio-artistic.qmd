@@ -1,12 +1,12 @@
 ---
-title: "Artistic Portfolio"
+title: "Creative Portfolio"
 title-block-banner: true
 format: html
 editor: visual
 css: styles.css
 ---
 
-Below are selections from my artistic portfolio, spanning fiction, poetry, spoken word, dance, photography, songwriting, music performance, and visual art. My strongest work is in fiction and poetry, though much of it is currently reserved for future publication, so only a small selection appears here.
+Below are selections from my creative portfolio, spanning fiction, poetry, spoken word, dance, photography, songwriting, music performance, and visual art. My strongest work is in fiction and poetry, though much of it is currently reserved for future publication, so only a small selection appears here.
 
 ## Fiction
 
@@ -16,15 +16,16 @@ This piece was written to be heard. Press play to listen to the recorded perform
 
 ## Poetry
 
-Most of my poetry examines the contradictions of contemporary life, especially technology, consumption, loneliness, freedom, and connection, often through humor or the experimentation with form. I am currently working on a poetry manuscript titled *Suffering Is Good for Business*, which uses humor, satire, and cultural critique to examine a culture of consumption, distraction, superficiality, and apathy that pervades contemporary life.
+Most of my poetry examines the contradictions of contemporary life, especially technology, consumption, loneliness, freedom, and connection, often through humor or the experimentation with form.
 
 **Are we all ADHD?** <iframe src="portfolio_files/poem_are_we_all_adhd.pdf" width="100%" height="350px"></iframe>
 
 **A Broken Freedom** <iframe src="portfolio_files/poem_a_broken_freedom.pdf" width="100%" height="350px"></iframe>
 
-**The Violinist's  Ballad** (published by Yearling) <iframe src="portfolio_files/poem_the_violinists_ballad.pdf" width="100%" height="350px"></iframe>
+**The Violinist's Ballad** (published by Yearling) <iframe src="portfolio_files/poem_the_violinists_ballad.pdf" width="100%" height="350px"></iframe>
 
 **Sorella Gelateria** (gifted & displayed) <iframe src="portfolio_files/poem_sorella_gelateria.pdf" width="100%" height="350px"></iframe>
+
 <details>
 
 <summary>Click for more details:</summary>
@@ -40,17 +41,17 @@ What an incredible joy it is to gift poem & art to my favorite small business. I
 Here are two glimpses into my spoken word work. On the left is a poem I performed to open an EDM festival set; on the right is my first open mic piece, a humorous poem about targeted advertising. These days, I gravitate toward cultural, socioeconomic, and political subjects, often between making people laugh and making the room go quiet.
 
 ::: video-pair
-<video
-  controls
-  playsinline
-  preload="none"
-  poster="portfolio_files/spoken_word_solstice_preview.png"
->
-  <source
+<video controls playsinline preload="none" poster="portfolio_files/spoken_word_solstice_preview.png">
+
+```{=html}
+<source
     src="portfolio_files/spoken_word_solstice.mp4"
     type="video/mp4"
   />
-  Your browser does not support the video tag.
+```
+
+Your browser does not support the video tag.
+
 </video>
 
 <video controls playsinline>
@@ -98,7 +99,7 @@ Your browser does not support the video tag.
 
 ## Songwriting
 
-All songs were created in 2022 to explore lyric and melody. 
+All songs were created in 2022 to explore lyric and melody.
 
 ::: video-pair
 <video controls playsinline>
@@ -150,20 +151,20 @@ Your browser does not support the video tag.
 
 This song came from a playful challenge: For the left song, I asked a friend for random words to make them into lyrics. The chosen words were:
 
--   Pomegranates
--   Blue bonnets
--   Sweater vest
--   Sunset
--   Georgia
--   Wagon wheel
+- Pomegranates
+- Blue bonnets
+- Sweater vest
+- Sunset
+- Georgia
+- Wagon wheel
 
 For the right song, my partner picked:
 
--   Cotton candy
--   Twix
--   Penguin
--   New York City
--   Ice skating
+- Cotton candy
+- Twix
+- Penguin
+- New York City
+- Ice skating
 
 </details>
 

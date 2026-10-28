@@ -94,7 +94,7 @@ create_historical_plotly <- function(data,
 
 # The Power of Interdisciplinary Thinking
 
-This is probably the nerdiest passion project on this site. I wanted a place to document all the things I find fascinating and keep them somewhere other than the overcrowded corners of my brain. Think of it as a **Carina Encyclopedia of Knowledge™** as an invitation to step into my mind shaped by both my analytical and creative sides.
+Welcome to my **Second Brain**, which is probably the most unabashedly nerdy passion project on the site. I wanted a place to collect the ideas, subjects, and curiosities that fascinate me before they disappeared into the overcrowded corners of my brain. Think of it as a documented **Carina Encyclopedia of Knowledge™** as an invitation to step into my mind shaped by both my analytical and creative sides.
 
 I’ve always been drawn to the new and different: ideas that push boundaries, challenge assumptions, or make me reconsider something I thought I understood. I love finding patterns in data, questioning how technology shapes our lives, digging into the forces behind society and culture, and generally figuring out how things work and why they are the way they are.
 
@@ -102,7 +102,7 @@ That's why I find myself at the intersection of **engineering, analytics, and th
 
 ![](images/venndiagram.png){width="500px" fig-align="center"}
 
-Engineering and analytics give us the tools to build and understand complex systems, from energy grids to economic models. But the humanities help us ask the right questions. They remind us that technology doesn't exist in a vacuum; it shapes and is shaped by people, culture, and history. To truly innovate, we need both: the precision of data and the depth of human insight.
+Engineering is the art of creation through problem-solving, turning complex challenges into opportunities to build something better. Understanding how systems work snd how they can become more efficient and reliable requires both logic and creativity, two forces that together shape the world around us.
 
 Data can reveal social truths that impacts every individual, engineered solutions can be more effective when they consider human behavior, and storytelling and history can influence innovation. **The world is built on connections between people, ideas, and disciplines**. For me, the best way to make an impact is by embracing that **interconnectedness**, by considering what happens when we bring these fields together. This consideration fuels my curiosity, my work, and my passion for **exploring the bigger picture**.
 

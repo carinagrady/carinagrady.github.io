@@ -17,8 +17,8 @@ website:
         text: Second Brain
       - text: Portfolio
         menu:
-          - href: portfolio-artistic.qmd
-            text: Art
+          - href: portfolio-creative.qmd
+            text: Creative
           - href: portfolio-engineering.qmd
             text: Engineering
       - href: contact.qmd
