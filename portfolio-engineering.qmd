@@ -36,7 +36,7 @@ Below are some of my past engineering-related projects, publications, and consul
 
 - **National Residential Efficiency Measures Database (REMD)**\
   [National Residential Efficiency Measures Database (REMD)](https://remdb.nrel.gov/about) - As part of a team updating the REMD dataset, I helped scrape retail energy pricing data and develop regression models to predict pricing trends for modelers and researchers.
-  
+
 ------------------------------------------------------------------------
 
 ### Internships
